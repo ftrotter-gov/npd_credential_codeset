@@ -1,6 +1,8 @@
 -- INSERT statements for Therapist credentials
 -- Physical, occupational, speech, mental health, and other therapy professionals
 
+-- TODO please renumber these to start from 70000
+
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,

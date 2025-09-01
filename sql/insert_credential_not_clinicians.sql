@@ -1,6 +1,8 @@
 -- INSERT statements for Non-clinical credentials
 -- Includes all credentials where is_clinical = FALSE: academic degrees, administrative roles, legal credentials, veterinary, etc.
 
+-- TODO please renumber these to start from 90000
+
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
@@ -50,12 +52,8 @@ VALUES
   (146, 'JD',    'Juris Doctor',                       NULL, NULL, NULL, TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 146
   (265, 'ESQ',    'Esquire',                            NULL, NULL, NULL, TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 265
   
-  -- Veterinary Medicine (Non-Human Clinical)
-  (144, 'DVM',   'Doctor of Veterinary Medicine',      NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 144
-  (290, 'VMD',   'Doctor of Veterinary Medicine',      'Multiple veterinary schools', 'Various', 'Veterinary medicine doctorate (variant of DVM)', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 290
 
 -- Additional Academic Degrees
   (291, 'AAS',   'Associate of Applied Science',       'Multiple institutions', 'Various', 'Two-year degree typically in technical or applied fields', TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 291
 
--- Alternative Medicine Doctorates  
-  (292, 'OMD',   'Oriental Medicine Doctor',           'Accredited oriental medicine schools', 'Various', 'Doctorate in Oriental/Traditional Chinese Medicine', TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 292
+

@@ -1,21 +1,23 @@
 -- INSERT statements for Nursing credentials
 -- All nursing credentials including basic licenses, board certifications, and advanced practice
 
+-- TODO please re-number these to start from the number 1000
+
 -- Basic nursing roles (RN, LPN, CNA, etc.)
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, created_at, updated_at)
 VALUES
-  (3,  'RN',   'Registered Nurse',                       NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 3
-  (34, 'LPN',   'Licensed Practical Nurse',            NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 34
-  (63, 'LVN',    'Licensed Vocational Nurse',          NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 63
-  (86, 'CNA',    'Certified Nursing Assistant',        NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 86
-  (125, 'RNFA',  'Registered Nurse First Assistant',   NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 125
-  (161, 'BSN',    'Bachelor of Science in Nursing',    NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 161
-  (164, 'STNA',   'State Tested Nursing Assistant',    NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 164
-  (172, 'MSN',    'Master of Science in Nursing',      NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 172
-  (232, 'NURSE',  'Nurse',                              NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL); -- 232
+  (1000,  'RN',   'Registered Nurse',                       NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 1000
+  (1001, 'LPN',   'Licensed Practical Nurse',            NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 1001
+  (1002, 'LVN',    'Licensed Vocational Nurse',          NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 1002
+  (1003, 'CNA',    'Certified Nursing Assistant',        NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 1003
+  (1004, 'RNFA',  'Registered Nurse First Assistant',   NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 1004
+  (1005, 'BSN',    'Bachelor of Science in Nursing',    NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 1005
+  (1006, 'STNA',   'State Tested Nursing Assistant',    NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 1006
+  (1007, 'MSN',    'Master of Science in Nursing',      NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 1007
+  (1008, 'NURSE',  'Nurse',                              NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL); -- 1008
 
 -- ANCC (American Nurses Credentialing Center) Nurse Practitioner Certifications  
 INSERT INTO dctnry.credential
@@ -24,19 +26,19 @@ INSERT INTO dctnry.credential
    is_board_certification, is_credential_retired, created_at, updated_at)
 VALUES
   -- Active ANCC Nurse Practitioner Certifications
-  (286, 'AGACNP-BC', 'Adult-Gerontology Acute Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 286
-  (287, 'AGPCNP-BC', 'Adult-Gerontology Primary Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 287
-  (288, 'FNP-BC', 'Family Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 288
-  (289, 'PMHNP-BC', 'Psychiatric-Mental Health Nurse Practitioner (across the life span)', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 289
+  (1009, 'AGACNP-BC', 'Adult-Gerontology Acute Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 1009
+  (1010, 'AGPCNP-BC', 'Adult-Gerontology Primary Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 1010
+  (1011, 'FNP-BC', 'Family Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 1011
+  (1012, 'PMHNP-BC', 'Psychiatric-Mental Health Nurse Practitioner (across the life span)', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 1012
   
   -- Retired ANCC Nurse Practitioner Certifications (Renewal Only)
-  (290, 'ACNP-BC', 'Acute Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 290
-  (291, 'ANP-BC', 'Adult Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 291
-  (292, 'GNP-BC', 'Gerontological Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 292
-  (293, 'PPCNP-BC', 'Pediatric Primary Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 293
-  (294, 'SNP-BC', 'School Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 294
-  (295, 'ADM-BC', 'Advanced Diabetes Management', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 295
-  (296, 'ENP-BC', 'Emergency Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL); -- 296
+  (1013, 'ACNP-BC', 'Acute Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1013
+  (1014, 'ANP-BC', 'Adult Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1014
+  (1015, 'GNP-BC', 'Gerontological Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1015
+  (1016, 'PPCNP-BC', 'Pediatric Primary Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1016
+  (1017, 'SNP-BC', 'School Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1017
+  (1018, 'ADM-BC', 'Advanced Diabetes Management', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1018
+  (1019, 'ENP-BC', 'Emergency Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL); -- 1019
 
 -- ANCC Clinical Nurse Specialist Certifications
 INSERT INTO dctnry.credential
@@ -45,17 +47,17 @@ INSERT INTO dctnry.credential
    is_board_certification, is_credential_retired, created_at, updated_at)
 VALUES
   -- Active ANCC Clinical Nurse Specialist Certifications
-  (297, 'AGCNS-BC', 'Adult-Gerontology Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 297
+  (1020, 'AGCNS-BC', 'Adult-Gerontology Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 1020
   
   -- Retired ANCC Clinical Nurse Specialist Certifications (Renewal Only)
-  (298, 'ACNS-BC', 'Adult Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 298
-  (299, 'PMHCNS-BC', 'Adult Psychiatric-Mental Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 299
-  (300, 'PMHCNS-BC', 'Child/Adolescent Psychiatric-Mental Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 300
-  (301, 'GCNS-BC', 'Gerontological Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 301
-  (302, 'HHCNS-BC', 'Home Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 302
-  (303, 'PCNS-BC', 'Pediatric Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 303
-  (304, 'PHCNS-BC', 'Public/Community Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 304
-  (305, 'CNS-BC', 'Clinical Nurse Specialist Core', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL); -- 305
+  (1021, 'ACNS-BC', 'Adult Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1021
+  (1022, 'PMHCNS-BC', 'Adult Psychiatric-Mental Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1022
+  (1023, 'PMHCNS-BC', 'Child/Adolescent Psychiatric-Mental Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1023
+  (1024, 'GCNS-BC', 'Gerontological Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1024
+  (1025, 'HHCNS-BC', 'Home Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1025
+  (1026, 'PCNS-BC', 'Pediatric Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1026
+  (1027, 'PHCNS-BC', 'Public/Community Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1027
+  (1028, 'CNS-BC', 'Clinical Nurse Specialist Core', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, NULL, NULL); -- 1028
 
 -- ANCC Registered Nurse Certifications
 INSERT INTO dctnry.credential

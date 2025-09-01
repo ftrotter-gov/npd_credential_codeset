@@ -1,6 +1,8 @@
 -- INSERT statements for Psychosocial Therapist credentials
 -- Social workers, behavioral, art, psychological therapy, mental health counselors, and addiction counselors
 
+-- please renumber these to start from 60000
+
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
