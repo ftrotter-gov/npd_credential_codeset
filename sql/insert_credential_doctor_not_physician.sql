@@ -6,17 +6,17 @@ INSERT INTO dctnry.credential
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, created_at, updated_at)
 VALUES
-  (10000,  'DDS',  'Doctor of Dental Surgery',               NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10000
-  (10001,  'DMD',  'Doctor of Medicine in Dentistry',        NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10001
-  (10002, 'PharmD', 'Doctor of Pharmacy',            NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10002
-  (10003, 'PsyD',   'Doctor of Psychology',          NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10003
-  (10004, 'DPT',   'Doctor of Physical Therapy',          NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10004
-  (10005, 'DC',    'Doctor of Chiropractic',              NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10005
-  (10006, 'OD',    'Doctor of Optometry',                 NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10006
-  (10007, 'DPM',   'Doctor of Podiatric Medicine',        NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10007
-  (10008, 'AUD',    'Doctor of Audiology',                NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10008
-  (10009, 'DNP',    'Doctor of Nursing Practice',         NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10009
-  (10010, 'ND',     'Doctor of Naturopathic Medicine',    NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10010
-  (10011, 'OTD',   'Doctor of Occupational Therapy',     NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10011
-  (10012, 'NMD',    'Doctor of Naturopathic Medicine',    NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10012
-  (10013, 'OMD',   'Oriental Medicine Doctor',           'Accredited oriental medicine schools', 'Various', 'Doctorate in Oriental/Traditional Chinese Medicine', TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 10013
+  (10000,  'DDS',  'Doctor of Dental Surgery',               'Accredited dental schools', 'https://www.ada.org/education-careers/dental-education/dental-schools', 'Doctoral degree in dentistry qualifying graduates to practice general dentistry', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10000
+  (10001,  'DMD',  'Doctor of Medicine in Dentistry',        'Accredited dental schools', 'https://www.ada.org/education-careers/dental-education/dental-schools', 'Doctoral degree in dentistry equivalent to DDS, qualifying graduates to practice general dentistry', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10001
+  (10002, 'PharmD', 'Doctor of Pharmacy',            'ACPE-accredited pharmacy schools', 'https://www.acpe-accredit.org/', 'Professional doctoral degree for pharmacists to provide pharmaceutical care and medication therapy management', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10002
+  (10003, 'PsyD',   'Doctor of Psychology',          'APA-accredited psychology programs', 'https://www.apa.org/ed/accreditation', 'Professional doctoral degree in psychology emphasizing clinical practice and applied psychology', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10003
+  (10004, 'DPT',   'Doctor of Physical Therapy',          'CAPTE-accredited PT programs', 'https://www.capteonline.org/', 'Entry-level doctoral degree for physical therapists to diagnose and treat movement dysfunction', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10004
+  (10005, 'DC',    'Doctor of Chiropractic',              'CCE-accredited chiropractic colleges', 'https://www.cce-usa.org/', 'Doctoral degree in chiropractic medicine focusing on diagnosis and treatment of neuromuscular disorders', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10005
+  (10006, 'OD',    'Doctor of Optometry',                 'ACOE-accredited optometry schools', 'https://www.theacoe.org/', 'Doctoral degree in optometry for comprehensive eye and vision care, including diagnosis and treatment of eye diseases', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10006
+  (10007, 'DPM',   'Doctor of Podiatric Medicine',        'CPME-accredited podiatric medical schools', 'https://www.cpme.org/', 'Doctoral degree in podiatric medicine for comprehensive foot and ankle care, including surgery', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10007
+  (10008, 'AuD',    'Doctor of Audiology',                'CAA-accredited audiology programs', 'https://caa.asha.org/', 'Professional doctoral degree in audiology for diagnosis and treatment of hearing and balance disorders', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10008
+  (10009, 'DNP',    'Doctor of Nursing Practice',         'CCNE or ACEN-accredited nursing programs', 'https://www.aacnnursing.org/DNP', 'Practice-focused doctoral degree in nursing for advanced nursing practice and clinical leadership', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10009
+  (10010, 'ND',     'Doctor of Naturopathic Medicine',    'CNME-accredited naturopathic medical schools', 'https://cnme.org/', 'Doctoral degree in naturopathic medicine emphasizing natural healing methods and preventive care', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10010
+  (10011, 'OTD',   'Doctor of Occupational Therapy',     'ACOTE-accredited OT programs', 'https://www.aota.org/education/accreditation', 'Entry-level doctoral degree in occupational therapy for helping people participate in meaningful activities', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10011
+  (10012, 'NMD',    'Doctor of Naturopathic Medicine',    'CNME-accredited naturopathic medical schools', 'https://cnme.org/', 'Doctoral degree in naturopathic medicine (alternative abbreviation to ND) emphasizing natural healing methods', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10012
+  (10013, 'OMD',   'Oriental Medicine Doctor',           'ACAOM-accredited acupuncture and oriental medicine programs', 'https://acaom.org/', 'Doctoral degree in Oriental Medicine/Traditional Chinese Medicine including acupuncture and herbal medicine', TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 10013
