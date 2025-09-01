@@ -6,49 +6,49 @@ INSERT INTO dctnry.credential
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, created_at, updated_at)
 VALUES
-  (20000, 'PT',     'Physical Therapist',            NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20000
-  (20001, 'LPTA',   'Licensed Physical Therapist Assistant', 'Commission on Accreditation in Physical Therapy Education', NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20001
-  (20002, 'OTR/L', 'Occupational Therapist Registered/Licensed', NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20002
-  (20003, 'PTA',   'Physical Therapist Assistant',        NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20003
-  (20004, 'LMT',   'Licensed Massage Therapist',          NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20004
-  (20005, 'OTR',   'Occupational Therapist Registered',   NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20005
-  (20006, 'SLP',   'Speech-Language Pathologist',         NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20006
-  (20007, 'OT',    'Occupational Therapist',              NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20007
-  (20008, 'ATC',    'Athletic Trainer Certified',         'Board of Certification', NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20008
-  (20009, 'CCC-SLP', 'Certificate of Clinical Competence in Speech-Language Pathology', 'American Speech-Language-Hearing Association', NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20009
-  (20010, 'COTA',   'Certified Occupational Therapy Assistant', NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20010
-  (20011, 'COTA/L', 'Certified Occupational Therapy Assistant Licensed', NULL, NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20011
-  (20012, 'LMP',    'Licensed Massage Practitioner',      NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20012
-  (20013, 'LAC',    'Licensed Acupuncturist',             NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20013
-  (20014, 'MPT',    'Master of Physical Therapy',         NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20014
-  (20015, 'MSPT',   'Master of Science in Physical Therapy', NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20015
-  (20016, 'RPT',    'Registered Physical Therapist',      NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20016
-  (20017, 'OTRL',   'Occupational Therapist Registered Licensed', NULL, NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20017
-  (20018, 'RRT',    'Registered Respiratory Therapist',   NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20018
-  (20019, 'CMT',    'Certified Massage Therapist',        NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20019
-  (20020, 'SLPA', 'Speech-Language Pathology Assistant', NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20020
-  (20021, 'OTA',   'Occupational Therapy Assistant',     NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20021
-  (20022, 'LPT',   'Licensed Physical Therapist',        NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20022
-  (20023, 'MOTR/L', 'Master of Occupational Therapy Registered/Licensed', NULL, NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20023
-  (20024, 'CF-SLP', 'Clinical Fellow Speech-Language Pathologist', NULL, NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL); -- 20024
+  (20000, 'PT',     'Physical Therapist',            NULL, NULL, 'Licensed healthcare professional who diagnoses and treats individuals with medical problems or other health-related conditions that limit their abilities to move and perform functional activities.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20000
+  (20001, 'LPTA',   'Licensed Physical Therapist Assistant', NULL, NULL, 'Licensed assistant who works under the supervision of a physical therapist to help patients recover movement and manage pain through therapeutic exercises and modalities.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20001
+  (20002, 'OTR/L', 'Occupational Therapist Registered/Licensed', 'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'Registered occupational therapist certified by NBCOT and licensed by state to help people participate in everyday activities through therapeutic interventions.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20002
+  (20003, 'PTA',   'Physical Therapist Assistant',        NULL, NULL, 'Assistant who provides physical therapy services under the supervision of a licensed physical therapist.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20003
+  (20004, 'LMT',   'Licensed Massage Therapist',          NULL, NULL, 'Licensed professional who uses therapeutic massage techniques to treat muscle tension, pain, and improve circulation.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20004
+  (20005, 'OTR',   'Occupational Therapist Registered',   'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'Registered occupational therapist certified by NBCOT who helps people participate in everyday activities through therapeutic interventions.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20005
+  (20006, 'SLP',   'Speech-Language Pathologist',         NULL, NULL, 'Licensed professional who diagnoses and treats communication and swallowing disorders across the lifespan.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20006
+  (20007, 'OT',    'Occupational Therapist',              NULL, NULL, 'Healthcare professional who helps people participate in everyday activities through therapeutic interventions and environmental modifications.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20007
+  (20008, 'ATC',    'Athletic Trainer Certified',         'Board of Certification', 'https://www.bocatc.org/', 'Healthcare professional certified by BOC who specializes in prevention, assessment, and rehabilitation of injuries and illnesses in physically active populations.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20008
+  (20009, 'CCC-SLP', 'Certificate of Clinical Competence in Speech-Language Pathology', 'American Speech-Language-Hearing Association', 'https://www.asha.org/', 'ASHA certification for speech-language pathologists demonstrating clinical competence in the profession.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20009
+  (20010, 'COTA',   'Certified Occupational Therapy Assistant', 'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'Certified occupational therapy assistant who provides OT services under supervision of an occupational therapist.', FALSE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20010
+  (20011, 'COTA/L', 'Certified Occupational Therapy Assistant Licensed', 'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'NBCOT certified occupational therapy assistant who is also state licensed to provide OT services under supervision.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20011
+  (20012, 'LMP',    'Licensed Massage Practitioner',      NULL, NULL, 'Licensed professional who provides therapeutic massage and bodywork services for health and wellness.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20012
+  (20013, 'LAC',    'Licensed Acupuncturist',             NULL, NULL, 'Licensed practitioner who uses acupuncture and traditional Chinese medicine techniques to treat various health conditions.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20013
+  (20014, 'MPT',    'Master of Physical Therapy',         NULL, NULL, 'Graduate degree in physical therapy, typically a precursor to the current Doctor of Physical Therapy degree.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20014
+  (20015, 'MSPT',   'Master of Science in Physical Therapy', NULL, NULL, 'Graduate degree in physical therapy with emphasis on scientific research and clinical practice.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20015
+  (20016, 'RPT',    'Registered Physical Therapist',      NULL, NULL, 'Physical therapist registered with state regulatory board to practice physical therapy.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20016
+  (20017, 'OTRL',   'Occupational Therapist Registered Licensed', 'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'Occupational therapist with both NBCOT certification and state licensure.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20017
+  (20018, 'RRT',    'Registered Respiratory Therapist',   'National Board for Respiratory Care', 'https://www.nbrc.org/', 'Advanced respiratory therapist registered by NBRC who provides diagnostic and therapeutic services for patients with cardiopulmonary disorders.', FALSE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20018
+  (20019, 'CMT',    'Certified Massage Therapist',        NULL, NULL, 'Massage therapist certified by various certification bodies to provide therapeutic massage services.', TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20019
+  (20020, 'SLPA', 'Speech-Language Pathology Assistant', NULL, NULL, 'Assistant who provides speech-language pathology services under the supervision of a licensed speech-language pathologist.', TRUE,  TRUE,  FALSE,  FALSE, NULL, NULL), -- 20020
+  (20021, 'OTA',   'Occupational Therapy Assistant',     NULL, NULL, 'Assistant who provides occupational therapy services under the supervision of an occupational therapist.', TRUE,  TRUE,  FALSE,  FALSE, NULL, NULL), -- 20021
+  (20022, 'LPT',   'Licensed Physical Therapist',        NULL, NULL, 'Physical therapist licensed by state regulatory board to independently practice physical therapy.', TRUE,  TRUE,  FALSE,  FALSE, NULL, NULL), -- 20022
+  (20023, 'MOTR/L', 'Master of Occupational Therapy Registered/Licensed', 'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'Master level occupational therapist with both NBCOT certification and state licensure.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20023
+  (20024, 'CF-SLP', 'Clinical Fellow Speech-Language Pathologist', 'American Speech-Language-Hearing Association', 'https://www.asha.org/', 'Speech-language pathologist completing supervised clinical fellowship year as part of ASHA certification requirements.', FALSE, TRUE,  FALSE,  FALSE, NULL, NULL); -- 20024
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, created_at, updated_at)
 VALUES
-  (20025, 'SLP-CCC', 'Speech-Language Pathologist with Certificate of Clinical Competence', NULL, NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20025
-  (20026, 'MOT',    'Master of Occupational Therapy',    NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20026
-  (20027, 'OT/L',   'Occupational Therapist Licensed',   NULL, NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20027
-  (20028, 'ACUPUNCTURIST', 'Acupuncturist',             NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20028
-  (20029, 'LMBT',   'Licensed Massage and Bodywork Therapist', NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20029
-  (20030, 'LAT',    'Licensed Athletic Trainer',          NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20030
-  (20031, 'CRT',    'Certified Respiratory Therapist',    NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20031
-  (20032, 'PHYSICAL-THERAPIST', 'Physical Therapist',     NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20032
-  (20033, 'SUDPT',  'Substance Use Disorder Physical Therapist', NULL, NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20033
-  (20034, 'RT',     'Respiratory Therapist',              NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20034
-  (20035, 'MSOTR/L', 'Master of Science in Occupational Therapy Registered/Licensed', NULL, NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20035
-  (20036, 'ST',     'Speech Therapist',                   NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20036
-  (20037, 'AT',     'Athletic Trainer',                   NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20037
-  (20038, 'LOTR',   'Licensed Occupational Therapist Registered', NULL, NULL, NULL, FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20038
-  (20039, 'RCP',    'Respiratory Care Practitioner',      NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, NULL, NULL); -- 20039
+  (20025, 'SLP-CCC', 'Speech-Language Pathologist with Certificate of Clinical Competence', 'American Speech-Language-Hearing Association', 'https://www.asha.org/', 'Speech-language pathologist who has earned the ASHA Certificate of Clinical Competence demonstrating advanced clinical knowledge and skills.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20025
+  (20026, 'MOT',    'Master of Occupational Therapy',    NULL, NULL, 'Graduate degree in occupational therapy preparing practitioners for clinical practice in helping people participate in everyday activities.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20026
+  (20027, 'OT/L',   'Occupational Therapist Licensed',   NULL, NULL, 'Licensed occupational therapist authorized by state regulatory board to practice occupational therapy.', TRUE, TRUE,  FALSE,  FALSE, NULL, NULL), -- 20027
+  (20028, 'ACUPUNCTURIST', 'Acupuncturist',             NULL, NULL, 'Healthcare practitioner who uses acupuncture needles and traditional Chinese medicine techniques to treat various health conditions.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20028
+  (20029, 'LMBT',   'Licensed Massage and Bodywork Therapist', NULL, NULL, 'Licensed professional who provides therapeutic massage and various bodywork modalities for health and wellness.', TRUE,  TRUE,  FALSE,  FALSE, NULL, NULL), -- 20029
+  (20030, 'LAT',    'Licensed Athletic Trainer',          NULL, NULL, 'Licensed athletic trainer authorized by state to practice athletic training including injury prevention, assessment, and rehabilitation.', TRUE,  TRUE,  FALSE,  FALSE, NULL, NULL), -- 20030
+  (20031, 'CRT',    'Certified Respiratory Therapist',    'National Board for Respiratory Care', 'https://www.nbrc.org/', 'Entry-level respiratory therapist certified by NBRC to provide basic respiratory care services under physician supervision.', FALSE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20031
+  (20032, 'PHYSICAL-THERAPIST', 'Physical Therapist',     NULL, NULL, 'Healthcare professional who diagnoses and treats individuals with movement dysfunction and physical impairments.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20032
+  (20033, 'SUDPT',  'Substance Use Disorder Physical Therapist', NULL, NULL, 'Physical therapist with specialized training in treating patients with substance use disorders and related movement impairments.', TRUE, TRUE,  FALSE,  FALSE, NULL, NULL), -- 20033
+  (20034, 'RT',     'Respiratory Therapist',              NULL, NULL, 'Healthcare professional who provides diagnostic and therapeutic services for patients with breathing and cardiopulmonary disorders.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20034
+  (20035, 'MSOTR/L', 'Master of Science in Occupational Therapy Registered/Licensed', 'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'Master level occupational therapist with NBCOT certification and state licensure, with advanced scientific training in OT practice.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20035
+  (20036, 'ST',     'Speech Therapist',                   NULL, NULL, 'Healthcare professional who diagnoses and treats speech, language, voice, and communication disorders.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20036
+  (20037, 'AT',     'Athletic Trainer',                   NULL, NULL, 'Healthcare professional who specializes in injury prevention, assessment, treatment, and rehabilitation for physically active individuals.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20037
+  (20038, 'LOTR',   'Licensed Occupational Therapist Registered', 'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'Licensed occupational therapist with NBCOT registration authorized to provide occupational therapy services.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20038
+  (20039, 'RCP',    'Respiratory Care Practitioner',      'National Board for Respiratory Care', 'https://www.nbrc.org/', 'Respiratory care professional credentialed by NBRC to provide comprehensive respiratory therapy services.', FALSE,  TRUE,  TRUE,  FALSE, NULL, NULL); -- 20039
