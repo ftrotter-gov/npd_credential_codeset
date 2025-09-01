@@ -1,7 +1,6 @@
 -- INSERT statements for Nursing credentials
 -- Specialty nursing certifications continuing from batch1 (which ended at 1105)
 
--- TODO please re-number these to start from the number 1000 (continuing from batch1)
 
 -- Additional Major Nursing Certifications from Comprehensive List
 INSERT INTO dctnry.credential

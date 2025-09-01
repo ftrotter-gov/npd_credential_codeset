@@ -1,7 +1,6 @@
 -- INSERT statements for Physician credentials
 -- Medical doctors who can practice medicine independently
 
--- TODO please renumber these to start from the number 1
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,

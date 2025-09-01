@@ -1,8 +1,6 @@
 -- INSERT statements for Nursing credentials
 -- All nursing credentials including basic licenses, board certifications, and advanced practice
 
--- TODO please re-number these to start from the number 1000
-
 -- Basic nursing roles (RN, LPN, CNA, etc.)
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,

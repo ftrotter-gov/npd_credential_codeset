@@ -1,8 +1,6 @@
 -- INSERT statements for Physical Therapist credentials
 -- Physical therapy, occupational therapy, speech therapy, respiratory therapy, and related movement/rehabilitation professionals
 
--- TODO please renumber these to start from 20000
-
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,

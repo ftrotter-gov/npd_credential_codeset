@@ -1,8 +1,6 @@
 -- INSERT statements for Doctor credentials (non-physician doctors)
 -- Doctoral degrees that are not medical practice degrees
 
--- TODO please renumber these to start from 10000
-
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,

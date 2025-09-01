@@ -1,7 +1,6 @@
 -- INSERT statements for Other clinical credentials
 -- Clinical pharmacists, support staff, and miscellaneous clinical credentials
 
--- Please renumber these to start from 50000
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,

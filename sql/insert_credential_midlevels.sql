@@ -1,8 +1,6 @@
 -- INSERT statements for Midlevel Provider credentials
 -- Physician Assistants, Nurse Practitioners, and other advanced practice clinicians
 
--- TODO please renumber these to start from the number 5000
-
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,

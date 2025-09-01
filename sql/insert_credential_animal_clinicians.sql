@@ -1,8 +1,6 @@
 -- INSERT statements for Animal Clinician credentials
 -- Veterinary medicine and other animal health professionals
 
--- TODO please renumber these to start from 80000
-
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,

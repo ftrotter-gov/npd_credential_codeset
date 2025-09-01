@@ -1,8 +1,6 @@
 -- INSERT statements for Non-clinical credentials
 -- Includes all credentials where is_clinical = FALSE: academic degrees, administrative roles, legal credentials, veterinary, etc.
 
--- TODO please renumber these to start from 90000
-
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
