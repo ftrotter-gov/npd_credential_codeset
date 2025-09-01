@@ -187,4 +187,10 @@ VALUES
   (1203, 'ACNPC', 'Acute Care Nurse Practitioner Certified', 'American Association of Critical-Care Nurses', 'https://www.aacn.org', 'Board certification for acute care nurse practitioners', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 1203
   (1204, 'CPNP', 'Certified Pediatric Nurse Practitioner', 'Pediatric Nursing Certification Board', 'https://www.pncb.org', 'Board certification for pediatric nurse practitioners', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 1204
   (1205, 'GNP', 'Gerontological Nurse Practitioner', 'American Nurses Credentialing Center', 'https://www.nursingworld.org', 'Nurse practitioner specializing in geriatric care', FALSE, TRUE, TRUE, TRUE, NULL, NULL), -- 1205
-  (1206, 'NPC', 'Nurse Practitioner Certified', 'Various certification boards', 'Various', 'Generic nurse practitioner certification', TRUE, TRUE, TRUE, FALSE, NULL, NULL); -- 1206
+  (1206, 'NPC', 'Nurse Practitioner Certified', 'Various certification boards', 'Various', 'Generic nurse practitioner certification', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1206
+
+-- Additional FDA List Nursing Credentials
+  (1207, 'RN-C', 'Registered Nurse Certified', NULL, NULL, 'Registered nurse with specialty certification in specific clinical area', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1207
+  (1208, 'RNCS', 'Registered Nurse Clinical Specialist', NULL, NULL, 'Registered nurse with advanced clinical specialization and expertise', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1208
+  (1209, 'RN/NP', 'Registered Nurse, Nurse Practitioner', NULL, NULL, 'Registered nurse with nurse practitioner qualification and advanced practice training', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1209
+  (1210, 'MNNP', 'Master of Nursing, Nurse Practitioner', NULL, NULL, 'Masters degree in nursing with nurse practitioner specialization', TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 1210

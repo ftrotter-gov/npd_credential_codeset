@@ -26,4 +26,21 @@ VALUES
 -- Physician Fellowship Credentials
   (16, 'FAAP', 'Fellow of the American Academy of Pediatrics', 'American Academy of Pediatrics', 'https://www.aap.org', 'Fellowship recognizing distinguished service and contributions to pediatric medicine and child health advocacy.', FALSE, TRUE, FALSE, FALSE, NULL, NULL), -- 16
   (17, 'FAAOS', 'Fellow of the American Academy of Orthopedic Surgeons', 'American Academy of Orthopedic Surgeons', 'https://www.aaos.org', 'Fellowship recognizing significant contributions to orthopedic surgery, education, and musculoskeletal health.', FALSE, TRUE, FALSE, FALSE, NULL, NULL), -- 17
-  (18, 'FAAFP', 'Fellow of the American Academy of Family Physicians', 'American Academy of Family Physicians', 'https://www.aafp.org', 'Fellowship recognizing excellence and leadership in family medicine practice, education, and community service.', FALSE, TRUE, FALSE, FALSE, NULL, NULL); -- 18
+  (18, 'FAAFP', 'Fellow of the American Academy of Family Physicians', 'American Academy of Family Physicians', 'https://www.aafp.org', 'Fellowship recognizing excellence and leadership in family medicine practice, education, and community service.', FALSE, TRUE, FALSE, FALSE, NULL, NULL), -- 18
+
+-- Homeopathic Medical Doctors
+  (19, 'MD(H)', 'Homeopathic Medical Doctor (Arizona)', NULL, NULL, 'Medical doctor with homeopathic specialization licensed in Arizona', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 19
+  (20, 'HMD', 'Homeopathic Medical Doctor (Nevada)', NULL, NULL, 'Homeopathic medical doctor licensed specifically in Nevada', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 20
+
+-- Physician Board Certifications
+  (21, 'DABFP', 'Diplomate of the American Board of Family Practice', 'American Board of Family Medicine', 'https://www.theabfm.org/', 'Board certification in family medicine practice', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 21
+  (22, 'DABIM', 'Diplomate of the American Board of Internal Medicine', 'American Board of Internal Medicine', 'https://www.abim.org/', 'Board certification in internal medicine', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 22
+  (23, 'ABFP', 'American Board of Family Practitioners', 'American Board of Family Medicine', 'https://www.theabfm.org/', 'Board certification by American Board of Family Practitioners', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 23
+  (24, 'ABO', 'American Board of Otolaryngology', 'American Board of Otolaryngology', 'https://www.aboto.org/', 'Board certification in otolaryngology (ENT) medicine', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 24
+  (25, 'ABPN', 'American Board of Psychiatry and Neurology', 'American Board of Psychiatry and Neurology', 'https://www.abpn.com/', 'Board certification in psychiatry and neurology', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 25
+  (26, 'AOBFP', 'American Osteopathic Board of Family Physicians', 'American Osteopathic Board of Family Physicians', NULL, 'Board certification in osteopathic family medicine', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 26
+
+-- Additional Physician Fellowship Credentials
+  (27, 'FACFO', 'Fellow of the American College of Foot Orthopedics', 'American College of Foot and Ankle Orthopedics and Medicine', NULL, 'Fellowship in foot orthopedics and podiatric medicine', FALSE, TRUE, FALSE, FALSE, NULL, NULL), -- 27
+  (28, 'FACOG', 'Fellow of the American College of Obstetrics and Gynecology', 'American College of Obstetricians and Gynecologists', 'https://www.acog.org/', 'Fellowship in obstetrics and gynecology', FALSE, TRUE, FALSE, FALSE, NULL, NULL), -- 28
+  (29, 'FAAEM', 'Fellow of the American Academy of Environmental Medicine', 'American Academy of Environmental Medicine', 'https://aaemonline.org/', 'Fellowship in environmental medicine', FALSE, TRUE, FALSE, FALSE, NULL, NULL); -- 29

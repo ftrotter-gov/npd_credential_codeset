@@ -51,4 +51,15 @@ VALUES
   (20036, 'ST',     'Speech Therapist',                   NULL, NULL, 'Healthcare professional who diagnoses and treats speech, language, voice, and communication disorders.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20036
   (20037, 'AT',     'Athletic Trainer',                   NULL, NULL, 'Healthcare professional who specializes in injury prevention, assessment, treatment, and rehabilitation for physically active individuals.', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 20037
   (20038, 'LOTR',   'Licensed Occupational Therapist Registered', 'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'Licensed occupational therapist with NBCOT registration authorized to provide occupational therapy services.', FALSE, TRUE,  TRUE,  FALSE, NULL, NULL), -- 20038
-  (20039, 'RCP',    'Respiratory Care Practitioner',      'National Board for Respiratory Care', 'https://www.nbrc.org/', 'Respiratory care professional credentialed by NBRC to provide comprehensive respiratory therapy services.', FALSE,  TRUE,  TRUE,  FALSE, NULL, NULL); -- 20039
+  (20039, 'RCP',    'Respiratory Care Practitioner',      'National Board for Respiratory Care', 'https://www.nbrc.org/', 'Respiratory care professional credentialed by NBRC to provide comprehensive respiratory therapy services.', FALSE,  TRUE,  TRUE,  FALSE, NULL, NULL), -- 20039
+
+-- Additional Acupuncture Credentials from FDA List
+  (20040, 'LicAc', 'Licensed Acupuncturist', NULL, NULL, 'Licensed practitioner of acupuncture and Traditional Chinese Medicine techniques', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 20040
+  (20041, 'AK', 'Acupuncturist (Pennsylvania)', NULL, NULL, 'Acupuncturist licensed specifically in Pennsylvania', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 20041
+  (20042, 'AP', 'Acupuncture Physician', NULL, NULL, 'Physician trained and licensed to practice acupuncture medicine', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 20042
+  (20043, 'CA', 'Certified Acupuncturist', NULL, NULL, 'Certified practitioner of acupuncture therapy and Traditional Chinese Medicine', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 20043
+  (20044, 'DAc', 'Diplomate in Acupuncture', NULL, NULL, 'Diplomate-level acupuncturist with advanced training and certification', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 20044
+  (20045, 'DAc (RI)', 'Doctor of Acupuncture, Rhode Island', NULL, NULL, 'Doctor of Acupuncture degree specifically recognized in Rhode Island', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 20045
+  (20046, 'DAc (WV)', 'Doctor of Acupuncture, West Virginia', NULL, NULL, 'Doctor of Acupuncture degree specifically recognized in West Virginia', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 20046
+  (20047, 'NCCA', 'National Commission for the Certification of Acupuncturists', 'National Commission for the Certification of Acupuncturists', NULL, 'Certification by National Commission for the Certification of Acupuncturists', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 20047
+  (20048, 'FIACA', 'Fellow of the International Academy of Clinical Acupuncture', 'International Academy of Clinical Acupuncture', NULL, 'Fellowship in clinical acupuncture', FALSE, TRUE, FALSE, FALSE, NULL, NULL); -- 20048

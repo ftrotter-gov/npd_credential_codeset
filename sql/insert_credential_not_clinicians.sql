@@ -52,4 +52,12 @@ VALUES
   
 
 -- Additional Academic Degrees
-  (90030, 'AAS',   'Associate of Applied Science',       NULL, NULL, 'Two-year degree typically in technical or applied fields', TRUE, FALSE, FALSE, FALSE, NULL, NULL); -- 90030
+  (90030, 'AAS',   'Associate of Applied Science',       NULL, NULL, 'Two-year degree typically in technical or applied fields', TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 90030
+
+-- Study Groups and Professional Leagues (Non-Clinical)
+  (90031, 'ASG',   'Affiliated Study Group',             NULL, NULL, 'Member of affiliated study group in medical specialty', TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 90031
+  (90032, 'HASG',  'Homeopathic Affiliated Study Group', NULL, NULL, 'Member of homeopathic affiliated study group', TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 90032
+  (90033, 'HSG',   'Homoeopathic Study Group',           NULL, NULL, 'Member of homeopathic study group', TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 90033
+  (90034, 'SG',    'Study Group',                        NULL, NULL, 'Member of medical specialty study group', TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 90034
+  (90035, 'LL',    'Laymens League',                     NULL, NULL, 'Member of medical laymens league', TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 90035
+  (90036, 'HLL',   'Homoeopathic Laymens League',        NULL, NULL, 'Member of homeopathic laymens league', TRUE, FALSE, FALSE, FALSE, NULL, NULL); -- 90036

@@ -105,4 +105,12 @@ VALUES
   (50050, 'DTR', 'Dietetic Technician, Registered', 'Commission on Dietetic Registration', 'https://www.cdrnet.org', 'Registered technician supporting dietitians in nutrition care', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 50050
 
 -- Medical Coding and Administrative Credentials
-  (50051, 'CPC', 'Certified Professional Coder', 'American Academy of Professional Coders', 'https://www.aapc.com', 'Certified professional specializing in medical coding for healthcare billing', FALSE, FALSE, TRUE, FALSE, NULL, NULL); -- 50051
+  (50051, 'CPC', 'Certified Professional Coder', 'American Academy of Professional Coders', 'https://www.aapc.com', 'Certified professional specializing in medical coding for healthcare billing', FALSE, FALSE, TRUE, FALSE, NULL, NULL), -- 50051
+
+-- Additional FDA List Nutrition Credentials
+  (50052, 'LN', 'Licensed Nutritionist', NULL, NULL, 'Licensed professional providing nutrition counseling and dietary guidance', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 50052
+  (50053, 'LNC', 'Licensed Nutritionist Counselor', NULL, NULL, 'Licensed nutritionist with counseling credentials for dietary and nutrition therapy', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 50053
+
+-- Additional FDA List Dental Fellowship Credentials
+  (50054, 'FIAOMT', 'Fellow of the International Academy of Oral Medicine and Toxicology', 'International Academy of Oral Medicine and Toxicology', 'https://iaomt.org/', 'Fellowship in oral medicine and toxicology', FALSE, TRUE, FALSE, FALSE, NULL, NULL), -- 50054
+  (50055, 'FICCMO', 'Fellow of the International College of Cranio Mandibular Orthopedics', 'International College of Cranio Mandibular Orthopedics', NULL, 'Fellowship in cranio mandibular orthopedics', FALSE, TRUE, FALSE, FALSE, NULL, NULL); -- 50055

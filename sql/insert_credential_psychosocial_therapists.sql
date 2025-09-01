@@ -124,4 +124,7 @@ VALUES
   (60093, 'EMDR', 'Eye Movement Desensitization and Reprocessing', 'EMDR International Association', 'https://www.emdria.org', 'Specialized psychotherapy technique certification for treating trauma and PTSD using bilateral stimulation.', FALSE, TRUE, TRUE, FALSE, NULL, NULL),
 
 -- Neuropsychology Credentials
-  (60094, 'NEUROPSYCHOLOGIST', 'Neuropsychologist', 'American Board of Professional Psychology', 'https://www.abpp.org', 'Board certified psychologist specializing in brain-behavior relationships, cognitive assessment, and neurological conditions.', FALSE, TRUE, TRUE, FALSE, NULL, NULL);
+  (60094, 'NEUROPSYCHOLOGIST', 'Neuropsychologist', 'American Board of Professional Psychology', 'https://www.abpp.org', 'Board certified psychologist specializing in brain-behavior relationships, cognitive assessment, and neurological conditions.', FALSE, TRUE, TRUE, FALSE, NULL, NULL),
+
+-- Additional FDA List Mental Health Credentials
+  (60095, 'MFCC', 'Marriage, Family and Child Counselor', NULL, NULL, 'Licensed counselor specializing in marriage, family, and child therapy', TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 60095

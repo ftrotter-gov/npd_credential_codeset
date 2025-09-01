@@ -19,4 +19,26 @@ VALUES
   (10010, 'ND',     'Doctor of Naturopathic Medicine',    'CNME-accredited naturopathic medical schools', 'https://cnme.org/', 'Doctoral degree in naturopathic medicine emphasizing natural healing methods and preventive care', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10010
   (10011, 'OTD',   'Doctor of Occupational Therapy',     'ACOTE-accredited OT programs', 'https://www.aota.org/education/accreditation', 'Entry-level doctoral degree in occupational therapy for helping people participate in meaningful activities', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10011
   (10012, 'NMD',    'Doctor of Naturopathic Medicine',    'CNME-accredited naturopathic medical schools', 'https://cnme.org/', 'Doctoral degree in naturopathic medicine (alternative abbreviation to ND) emphasizing natural healing methods', TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 10012
-  (10013, 'OMD',   'Oriental Medicine Doctor',           'ACAOM-accredited acupuncture and oriental medicine programs', 'https://acaom.org/', 'Doctoral degree in Oriental Medicine/Traditional Chinese Medicine including acupuncture and herbal medicine', TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 10013
+  (10013, 'OMD',   'Oriental Medicine Doctor',           'ACAOM-accredited acupuncture and oriental medicine programs', 'https://acaom.org/', 'Doctoral degree in Oriental Medicine/Traditional Chinese Medicine including acupuncture and herbal medicine', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 10013
+
+-- Additional FDA List Non-Physician Doctor Credentials
+
+-- Homeopathic Medicine Credentials
+  (10014, 'BHMS', 'Bachelor of Homeopathic Medicine and Surgery', NULL, NULL, 'Bachelor degree in homeopathic medicine and surgical practice', TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 10014
+  (10015, 'CCH', 'Certified in Classical Homeopathy', NULL, NULL, 'Certified practitioner of classical homeopathic medicine', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 10015
+  (10016, 'DHANP', 'Diplomate of the Homeopathic Academy of Naturopathic Physicians', 'Homeopathic Academy of Naturopathic Physicians', NULL, 'Diplomate-level certification in homeopathic medicine for naturopathic physicians', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 10016
+  (10017, 'DHt', 'Diplomate in Homeotherapeutics', NULL, NULL, 'Diplomate certification in homeotherapeutic medicine and treatment', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 10017
+  (10018, 'DNBHE', 'Diplomate of the National Board of Homeopathic Examiners', 'National Board of Homeopathic Examiners', NULL, 'Diplomate certification from the National Board of Homeopathic Examiners', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 10018
+  (10019, 'RS Hom', 'Registered with the Society of Homeopaths', 'Society of Homeopaths', NULL, 'Registered homeopath with the Society of Homeopaths', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 10019
+
+-- Chiropractic Specialty Credentials
+  (10020, 'CCSP', 'Certified Chiropractic Sports Physician', NULL, NULL, 'Chiropractor certified in sports medicine and athletic injury treatment', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 10020
+  (10021, 'DACBN', 'Diplomate of American Chiropractic Board of Nutrition', 'American Chiropractic Board of Nutrition', NULL, 'Diplomate certification in chiropractic nutrition and dietary counseling', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 10021
+
+-- Osteopathic Specialty Credentials
+  (10022, 'CSPOMM', 'Certified Specialty of Proficiency in Osteopathic Manipulation Medicine', NULL, NULL, 'Certified specialty in osteopathic manipulative medicine techniques', TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 10022
+  (10023, 'AOBSPOMM', 'American Osteopathic Board of Special Proficiency in Osteopathic Manipulative Medicine', 'American Osteopathic Board of Special Proficiency in OMM', NULL, 'Board certification in osteopathic manipulative medicine specialty', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 10023
+
+-- Pain Management Credentials
+  (10024, 'CAAPM', 'Clinical Associate of the American Academy of Pain Management', 'American Academy of Pain Management', NULL, 'Clinical associate certification in pain management', FALSE, TRUE, TRUE, FALSE, NULL, NULL), -- 10024
+  (10025, 'DAAPM', 'Diplomate of American Academy of Pain Management', 'American Academy of Pain Management', NULL, 'Diplomate certification in pain management', FALSE, TRUE, TRUE, FALSE, NULL, NULL); -- 10025
