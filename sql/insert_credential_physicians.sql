@@ -43,6 +43,6 @@ VALUES
 -- Additional Physician Fellowship Credentials
   (27, 'FACFO', 'Fellow of the American College of Foot Orthopedics', 'American College of Foot and Ankle Orthopedics and Medicine', NULL, 'Fellowship in foot orthopedics and podiatric medicine', FALSE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 27
   (28, 'FACOG', 'Fellow of the American College of Obstetrics and Gynecology', 'American College of Obstetricians and Gynecologists', 'https://www.acog.org/', 'Fellowship in obstetrics and gynecology', FALSE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 28
-  (29, 'FAAEM', 'Fellow of the American Academy of Environmental Medicine', 'American Academy of Environmental Medicine', 'https://aaemonline.org/', 'Fellowship in environmental medicine', FALSE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL) --29
+  (29, 'FAAEM', 'Fellow of the American Academy of Environmental Medicine', 'American Academy of Environmental Medicine', 'https://aaemonline.org/', 'Fellowship in environmental medicine', FALSE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL), --29
   (30, 'FAAC', 'Fellow of the American College of Cardiology', 'American College of Cardiology', 'https://www.acc.org/', 'Fellowship in cardiology', FALSE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL) --30
   ; 
