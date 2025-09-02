@@ -8,7 +8,7 @@ INSERT INTO dctnry.credential
 VALUES
   (10000,  'DDS',  'Doctor of Dental Surgery',               'Accredited dental schools', 'https://www.ada.org/education-careers/dental-education/dental-schools', 'Doctoral degree in dentistry qualifying graduates to practice general dentistry', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 10000
   (10001,  'DMD',  'Doctor of Medicine in Dentistry',        'Accredited dental schools', 'https://www.ada.org/education-careers/dental-education/dental-schools', 'Doctoral degree in dentistry equivalent to DDS, qualifying graduates to practice general dentistry', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 10001
-  (10002, 'PharmD', 'Doctor of Pharmacy',            'ACPE-accredited pharmacy schools', 'https://www.acpe-accredit.org/', 'Professional doctoral degree for pharmacists to provide pharmaceutical care and medication therapy management', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 10002
+  (10002, 'PharmD', 'Doctor of Pharmacy',            'ACPE-accredited pharmacy schools', 'https://www.acpe-accredit.org/', 'Professional doctoral degree for pharmacists to provide pharmaceutical care and medication therapy management', TRUE,  TRUE,  FALSE, FALSE, TRUE, NULL, NULL), -- 10002
   (10003, 'PsyD',   'Doctor of Psychology',          'APA-accredited psychology programs', 'https://www.apa.org/ed/accreditation', 'Professional doctoral degree in psychology emphasizing clinical practice and applied psychology', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 10003
   (10004, 'DPT',   'Doctor of Physical Therapy',          'CAPTE-accredited PT programs', 'https://www.capteonline.org/', 'Entry-level doctoral degree for physical therapists to diagnose and treat movement dysfunction', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 10004
   (10005, 'DC',    'Doctor of Chiropractic',              'CCE-accredited chiropractic colleges', 'https://www.cce-usa.org/', 'Doctoral degree in chiropractic medicine focusing on diagnosis and treatment of neuromuscular disorders', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 10005
@@ -41,4 +41,12 @@ VALUES
 
 -- Pain Management Credentials
   (10024, 'CAAPM', 'Clinical Associate of the American Academy of Pain Management', 'American Academy of Pain Management', NULL, 'Clinical associate certification in pain management', FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 10024
-  (10025, 'DAAPM', 'Diplomate of American Academy of Pain Management', 'American Academy of Pain Management', NULL, 'Diplomate certification in pain management', FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 10025
+  (10025, 'DAAPM', 'Diplomate of American Academy of Pain Management', 'American Academy of Pain Management', NULL, 'Diplomate certification in pain management', FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 10025
+
+-- Additional FHIR Credentials - Doctoral Degrees
+  (10026, 'DBA', 'Doctor of Business Administration', NULL, NULL, 'Doctoral degree in business administration focusing on applied research and advanced business practice', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 10026
+  (10027, 'DED', 'Doctor of Education', NULL, NULL, 'Professional doctoral degree in education for advanced educational leadership and practice', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 10027
+  (10028, 'PHE', 'Doctor of Engineering', NULL, NULL, 'Professional doctoral degree in engineering focusing on advanced engineering practice and applied research', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 10028
+  (10029, 'PHD', 'Doctor of Philosophy', NULL, NULL, 'Research doctoral degree representing the highest level of academic achievement in various fields of study', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 10029
+  (10030, 'PHS', 'Doctor of Science', NULL, NULL, 'Research or professional doctoral degree in scientific disciplines', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 10030
+  (10031, 'JD', 'Juris Doctor', NULL, NULL, 'Professional doctoral degree in law required for legal practice in most jurisdictions', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL); -- 10031

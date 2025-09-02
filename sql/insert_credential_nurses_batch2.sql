@@ -121,7 +121,7 @@ VALUES
   (1169, 'CNL', 'Clinical Nurse Leader', 'American Association of Colleges of Nursing', 'https://www.aacnnursing.org/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1169
   
   -- Certified Nurse Midwife
-  (1170, 'CNM', 'Certified Nurse Midwife', 'American Midwifery Certification Board', 'https://www.amcbmidwife.org/amcb-certification', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1170
+  (1170, 'CNM', 'Certified Nurse Midwife', 'American Midwifery Certification Board', 'https://www.amcbmidwife.org/amcb-certification', NULL, FALSE, TRUE, TRUE, FALSE, TRUE, NULL, NULL), -- 1170
   
   -- Addictions Nursing
   (1171, 'CARN', 'Certified Addictions Registered Nurse', 'Certified Addictions Registered Nurse - Board of Certification', 'https://cnetnurse.com', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1171
@@ -193,4 +193,12 @@ VALUES
   (1207, 'RN-C', 'Registered Nurse Certified', NULL, NULL, 'Registered nurse with specialty certification in specific clinical area', TRUE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1207
   (1208, 'RNCS', 'Registered Nurse Clinical Specialist', NULL, NULL, 'Registered nurse with advanced clinical specialization and expertise', TRUE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1208
   (1209, 'RN/NP', 'Registered Nurse, Nurse Practitioner', NULL, NULL, 'Registered nurse with nurse practitioner qualification and advanced practice training', TRUE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1209
-  (1210, 'MNNP', 'Master of Nursing, Nurse Practitioner', NULL, NULL, 'Masters degree in nursing with nurse practitioner specialization', TRUE, TRUE, FALSE, FALSE, FALSE, NULL, NULL); -- 1210
+  (1210, 'MNNP', 'Master of Nursing, Nurse Practitioner', NULL, NULL, 'Masters degree in nursing with nurse practitioner specialization', TRUE, TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 1210
+
+-- Additional FHIR Credentials - Nursing Related
+  (1211, 'PN', 'Advanced Practice Nurse', NULL, NULL, 'Advanced Practice Nurse with graduate-level education and clinical training', TRUE, TRUE, FALSE, FALSE, TRUE, NULL, NULL), -- 1211
+  (1212, 'BN', 'Bachelor of Nursing', NULL, NULL, 'Bachelor degree in nursing providing foundational nursing education', TRUE, TRUE, FALSE, FALSE, TRUE, NULL, NULL), -- 1212  
+  (1213, 'CANP', 'Certified Adult Nurse Practitioner', NULL, NULL, 'Certified Adult Nurse Practitioner specializing in adult healthcare', TRUE, TRUE, TRUE, FALSE, TRUE, NULL, NULL), -- 1213
+  (1214, 'CRN', 'Certified Registered Nurse', NULL, NULL, 'Certified Registered Nurse with advanced certification beyond basic RN license', TRUE, TRUE, TRUE, FALSE, TRUE, NULL, NULL), -- 1214
+  (1215, 'CNS', 'Certified Nurse Specialist', NULL, NULL, 'Certified Nurse Specialist with advanced practice nursing expertise in specialized clinical areas', TRUE, TRUE, TRUE, FALSE, TRUE, NULL, NULL), -- 1215
+  (1216, 'FPNP', 'Family Practice Nurse Practitioner', NULL, NULL, 'Family Practice Nurse Practitioner providing comprehensive primary care to families', TRUE, TRUE, TRUE, FALSE, TRUE, NULL, NULL); -- 1216

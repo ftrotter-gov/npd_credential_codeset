@@ -12,11 +12,11 @@ VALUES
   (5001, 'FNP',  'Family Nurse Practitioner',              NULL, NULL, 'Advanced practice registered nurse providing primary care across the lifespan to individuals and families', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5001
   -- Physician Assistants
   (5002, 'PA-C',   'Physician Assistant Certified', 'National Commission on Certification of Physician Assistants', 'https://www.nccpa.net', 'Healthcare professional licensed to practice medicine with physician supervision, certified by the national certifying body', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5002
-  (5003, 'PA',     'Physician Assistant',           NULL, NULL, 'Healthcare professional licensed to practice medicine with physician supervision', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5003
+  (5003, 'PA',     'Physician Assistant',           NULL, NULL, 'Healthcare professional licensed to practice medicine with physician supervision', TRUE,  TRUE,  FALSE, FALSE, TRUE, NULL, NULL), -- 5003
   -- Advanced Practice Registered Nurses
   (5004, 'APRN-CNP', 'Advanced Practice Registered Nurse - Certified Nurse Practitioner', NULL, NULL, 'Advanced practice registered nurse with specialized graduate education and national certification in a nurse practitioner role', TRUE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5004
   -- General Nurse Practitioners
-  (5005, 'NP',    'Nurse Practitioner',                  NULL, NULL, 'Advanced practice registered nurse with graduate education providing healthcare services including diagnosis, treatment, and management of medical conditions', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5005
+  (5005, 'NP',    'Nurse Practitioner',                  NULL, NULL, 'Advanced practice registered nurse with graduate education providing healthcare services including diagnosis, treatment, and management of medical conditions', TRUE,  TRUE,  FALSE, FALSE, TRUE, NULL, NULL), -- 5005
   -- Family Nurse Practitioner Certified
   (5006, 'FNP-C', 'Family Nurse Practitioner Certified', 'American Nurses Credentialing Center', 'https://www.nursingworld.org/ancc', 'Nationally certified family nurse practitioner providing primary care across the lifespan', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5006
   -- Advanced Registered Nurse Practitioners
@@ -26,9 +26,9 @@ VALUES
   (5009, 'FNP-BC', 'Family Nurse Practitioner Board Certified', 'American Nurses Credentialing Center', 'https://www.nursingworld.org/ancc', 'Board certified family nurse practitioner providing comprehensive primary care to individuals and families', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5009
   -- Certified Nurse Practitioners
   (5010, 'NP-C',   'Nurse Practitioner Certified',       NULL, NULL, 'Nationally certified nurse practitioner with advanced education and training', TRUE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5010
-  (5011, 'CNP',    'Certified Nurse Practitioner',       NULL, NULL, 'Certified nurse practitioner with advanced practice nursing education and national certification', TRUE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5011
+  (5011, 'CNP',    'Certified Nurse Practitioner',       NULL, NULL, 'Certified nurse practitioner with advanced practice nursing education and national certification', TRUE,  TRUE,  TRUE,  FALSE, TRUE, NULL, NULL), -- 5011
   -- Certified Nurse Midwives
-  (5012, 'CNM',    'Certified Nurse Midwife',            'American Midwifery Certification Board', 'https://www.amcbmidwife.org', 'Advanced practice registered nurse providing comprehensive reproductive healthcare and midwifery services to women', FALSE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5012
+  (5012, 'CNM',    'Certified Nurse Midwife',            'American Midwifery Certification Board', 'https://www.amcbmidwife.org', 'Advanced practice registered nurse providing comprehensive reproductive healthcare and midwifery services to women', FALSE,  TRUE,  TRUE,  FALSE, TRUE, NULL, NULL), -- 5012
   -- Advanced Practice Nurses
   (5013, 'APN',    'Advanced Practice Nurse',            NULL, NULL, 'Registered nurse with advanced graduate education and clinical training in a specialized area of nursing', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5013
   -- Psychiatric Mental Health Nurse Practitioners
@@ -37,7 +37,7 @@ VALUES
   -- Physician Assistant Certified variants
   (5016, 'PAC',    'Physician Assistant Certified',      NULL, NULL, 'Certified physician assistant licensed to practice medicine under physician supervision', TRUE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5016
   -- Pediatric Nurse Practitioners
-  (5017, 'CPNP',   'Certified Pediatric Nurse Practitioner', 'Pediatric Nursing Certification Board', 'https://www.pncb.org', 'Certified nurse practitioner specializing in comprehensive healthcare for infants, children, and adolescents', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5017
+  (5017, 'CPNP',   'Certified Pediatric Nurse Practitioner', 'Pediatric Nursing Certification Board', 'https://www.pncb.org', 'Certified nurse practitioner specializing in comprehensive healthcare for infants, children, and adolescents', FALSE, TRUE,  TRUE,  FALSE, TRUE, NULL, NULL), -- 5017
   -- Adult Nurse Practitioners
   (5018, 'ANP',    'Adult Nurse Practitioner',           NULL, NULL, 'Nurse practitioner specializing in healthcare for adults across the adult lifespan', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL); -- 5018
 

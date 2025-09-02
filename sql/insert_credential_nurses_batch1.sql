@@ -7,14 +7,14 @@ INSERT INTO dctnry.credential
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, created_at, updated_at)
 VALUES
-  (1000,  'RN',   'Registered Nurse',                       NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 1000
+  (1000,  'RN',   'Registered Nurse',                       NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, TRUE, NULL, NULL), -- 1000
   (1001, 'LPN',   'Licensed Practical Nurse',            NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 1001
   (1002, 'LVN',    'Licensed Vocational Nurse',          NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 1002
   (1003, 'CNA',    'Certified Nursing Assistant',        NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 1003
   (1004, 'RNFA',  'Registered Nurse First Assistant',   NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 1004
-  (1005, 'BSN',    'Bachelor of Science in Nursing',    NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 1005
+  (1005, 'BSN',    'Bachelor of Science in Nursing',    NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, TRUE, NULL, NULL), -- 1005
   (1006, 'STNA',   'State Tested Nursing Assistant',    NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 1006
-  (1007, 'MSN',    'Master of Science in Nursing',      NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 1007
+  (1007, 'MSN',    'Master of Science in Nursing',      NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, TRUE, NULL, NULL), -- 1007
   (1008, 'NURSE',  'Nurse',                              NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL); -- 1008
 
 -- ANCC (American Nurses Credentialing Center) Nurse Practitioner Certifications  
