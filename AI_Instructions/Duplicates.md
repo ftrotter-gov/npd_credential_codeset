@@ -15,4 +15,5 @@ or later version of each credential.
 
 - __RN-BC__: This is a generic abbreviation used by ANCC for many different retired board certifications (e.g., 'Certified Vascular Nurse', 'College Health Nursing'). The `credential_name` is distinct for each.
 
-- __CRN__: 'Certified Radiologic Nurse' vs. 'Certified Registered Nurse'
+- __CRN__: 'Certified Radiologic Nurse' vs. 'Certified Registered Nurse' 
+

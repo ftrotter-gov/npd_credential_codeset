@@ -26,6 +26,7 @@ CREATE TABLE dctnry.credential (
   is_board_certification      BOOLEAN     NOT NULL DEFAULT FALSE,
   is_credential_retired       BOOLEAN     NOT NULL DEFAULT FALSE, -- TRUE when a credential is no longer issued for some reason
   is_fhir_credential          BOOLEAN     NOT NULL DEFAULT FALSE, -- TRUE when a credential appears in the FHIR spec.
+  duplicate_abbreviation_code INT NOT NULL DEFAULT 0, -- 0 means it is not a duplicate. 1 means it is a duplicate but it is winning, it will be used in the auto-mapping. 2 means that it is duplicate but will not be used in the mapping. 
   created_at                  TIMESTAMPTZ,
   updated_at                  TIMESTAMPTZ
 );
