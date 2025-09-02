@@ -1,7 +1,7 @@
 -- INSERT statements for Psychosocial Therapist credentials
 -- Social workers, behavioral, art, psychological therapy, mental health counselors, and addiction counselors
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -32,7 +32,7 @@ VALUES
   (60023, 'CADC',  'Certified Alcohol and Drug Counselor', NULL, NULL, 'Certified counselor specializing in substance abuse treatment and addiction recovery services.', TRUE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL),
   (60024, 'LPCA',  'Licensed Professional Counselor Associate', NULL, NULL, 'Associate-level professional counselor working under supervision toward full licensure.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL);
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -63,7 +63,7 @@ VALUES
   (60048, 'PSS',    'Peer Support Specialist',           NULL, NULL, 'Individual with lived experience providing peer support services in mental health and recovery settings.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL),
   (60049, 'SA-C',   'Substance Abuse Counselor Certified', NULL, NULL, 'Certified counselor specializing in substance abuse treatment and addiction recovery services.', TRUE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL);
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -94,7 +94,7 @@ VALUES
   (60073, 'APCC',   'Associate Professional Clinical Counselor', NULL, NULL, 'Associate-level clinical counselor working under supervision toward independent practice.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL),
   (60074, 'CPSS',   'Certified Peer Support Specialist',  NULL, NULL, 'Certified peer support specialist with training to provide recovery-oriented services.', TRUE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL);
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)

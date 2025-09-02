@@ -1,7 +1,7 @@
 -- INSERT statements for Doctor credentials (non-physician doctors)
 -- Doctoral degrees that are not medical practice degrees
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)

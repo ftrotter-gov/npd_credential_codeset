@@ -12,9 +12,9 @@
 -- *  created_at - should always be NULL so that the database can set
 -- *  updated_at - should always be NULL so that the database can set.
 
-DROP TABLE IF EXISTS dctnry.credential;
+DROP TABLE IF EXISTS dctnry.clinical_credential;
 
-CREATE TABLE dctnry.credential (
+CREATE TABLE dctnry.clinical_credential (
   id                          INT PRIMARY KEY,
   credential_abbr             TEXT        NOT NULL,  -- e.g., MD, DO, PhD
   credential_name             TEXT        NOT NULL,  -- e.g., Medical Doctor

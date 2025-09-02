@@ -1,7 +1,7 @@
 -- INSERT statements for Midlevel Provider credentials
 -- Physician Assistants, Nurse Practitioners, and other advanced practice clinicians
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -40,7 +40,7 @@ VALUES
   -- Adult Nurse Practitioners
   (5018, 'ANP',    'Adult Nurse Practitioner',           NULL, NULL, 'Nurse practitioner specializing in healthcare for adults across the adult lifespan', TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL); -- 5018
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -77,7 +77,7 @@ VALUES
   -- Master of Physician Assistant Studies
   (5038, 'MPAS',   'Master of Physician Assistant Studies', NULL, NULL, 'Masters degree in physician assistant studies from an accredited educational program', TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL); -- 5038
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)

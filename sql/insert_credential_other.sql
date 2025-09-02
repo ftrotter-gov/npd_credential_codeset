@@ -2,7 +2,7 @@
 -- Clinical pharmacists, support staff, and miscellaneous clinical credentials
 
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -28,7 +28,7 @@ VALUES
   (50011, 'RDN',    'Registered Dietitian Nutritionist',  'Commission on Dietetic Registration', 'https://www.cdrnet.org', 'Updated credential name for Registered Dietitian', FALSE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL), -- 50011
   (50012, 'REGISTERED-DIETITIAN', 'Registered Dietitian', 'Commission on Dietetic Registration', 'https://www.cdrnet.org', 'Licensed nutrition professional providing medical nutrition therapy', FALSE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL); -- 50012
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -56,7 +56,7 @@ VALUES
   (50027, 'IDC',   'Infection Disease Control Specialist', NULL, NULL, 'Specialist in preventing and controlling infectious diseases', TRUE, TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL), -- 50027
   (50028, 'IDMT',   'Independent Duty Medical Technician', NULL, NULL, 'Military medical technician providing independent patient care', TRUE, TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL); -- 50028
 
-INSERT INTO dctnry.credential
+INSERT INTO dcntry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
