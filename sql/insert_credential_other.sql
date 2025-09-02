@@ -53,7 +53,6 @@ VALUES
   (50025, 'BC-HIS', 'Board Certified Hearing Instrument Specialist', 'National Board for Certification in Hearing Instrument Sciences', 'https://www.nbc-his.org', 'Board certified specialist fitting and dispensing hearing aids', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 50025
   
   -- Specialized Clinical Services
-  (50026, 'IBCLC', 'International Board Certified Lactation Consultant', 'International Board of Lactation Consultant Examiners', 'https://iblce.org', 'Board certified specialist in breastfeeding and lactation support', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 50026
   (50027, 'IDC',   'Infection Disease Control Specialist', NULL, NULL, 'Specialist in preventing and controlling infectious diseases', TRUE, TRUE,  FALSE,  FALSE, FALSE, NULL, NULL), -- 50027
   (50028, 'IDMT',   'Independent Duty Medical Technician', NULL, NULL, 'Military medical technician providing independent patient care', TRUE, TRUE,  FALSE,  FALSE, FALSE, NULL, NULL); -- 50028
 
@@ -116,16 +115,12 @@ VALUES
   (50055, 'FICCMO', 'Fellow of the International College of Cranio Mandibular Orthopedics', 'International College of Cranio Mandibular Orthopedics', NULL, 'Fellowship in cranio mandibular orthopedics', FALSE, TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 50055
 
 -- Additional FHIR Credentials - Various Educational and Professional Levels
-  (50056, 'AAS', 'Associate of Applied Science', NULL, NULL, 'Two-year associate degree in applied science focusing on practical skills and technical knowledge', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50056
-  (50057, 'AA', 'Associate of Arts', NULL, NULL, 'Two-year associate degree in liberal arts providing foundational education in humanities and social sciences', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50057
   (50058, 'ABA', 'Associate of Business Administration', NULL, NULL, 'Two-year associate degree in business administration covering basic business principles', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50058
   (50059, 'AE', 'Associate of Engineering', NULL, NULL, 'Two-year associate degree in engineering providing technical foundation in engineering principles', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50059
   (50060, 'AS', 'Associate of Science', NULL, NULL, 'Two-year associate degree in science covering mathematics, natural sciences, and related technical fields', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50060
-  (50061, 'BA', 'Bachelor of Arts', NULL, NULL, 'Four-year undergraduate degree in liberal arts, humanities, or social sciences', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50061
   (50062, 'BBA', 'Bachelor of Business Administration', NULL, NULL, 'Four-year undergraduate degree in business administration and management', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50062
   (50063, 'BE', 'Bachelor or Engineering', NULL, NULL, 'Four-year undergraduate degree in engineering disciplines', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50063
   (50064, 'BFA', 'Bachelor of Fine Arts', NULL, NULL, 'Four-year undergraduate degree in fine arts, visual arts, or performing arts', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50064
-  (50065, 'BS', 'Bachelor of Science', NULL, NULL, 'Four-year undergraduate degree in science, technology, engineering, mathematics, or related fields', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50065
   (50066, 'BSL', 'Bachelor of Science - Law', NULL, NULL, 'Four-year undergraduate degree combining science and legal studies', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50066
   (50067, 'BT', 'Bachelor of Theology', NULL, NULL, 'Four-year undergraduate degree in theological studies and religious education', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50067
   (50068, 'CER', 'Certificate', NULL, NULL, 'Certificate credential representing completion of specialized training or education program', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50068
@@ -134,16 +129,12 @@ VALUES
   (50071, 'EMT', 'Emergency Medical Technician', NULL, NULL, 'Certified emergency medical technician providing basic emergency medical care and transportation', TRUE, TRUE, TRUE, FALSE, TRUE, NULL, NULL), -- 50071
   (50072, 'EMTP', 'Emergency Medical Technician - Paramedic', NULL, NULL, 'Advanced emergency medical technician with paramedic certification providing advanced life support', TRUE, TRUE, TRUE, FALSE, TRUE, NULL, NULL), -- 50072
   (50073, 'HS', 'High School Graduate', NULL, NULL, 'High school diploma or equivalent representing completion of secondary education', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50073
-  (50074, 'MA', 'Master of Arts', NULL, NULL, 'Graduate degree in liberal arts, humanities, social sciences, or related fields', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50074
-  (50075, 'MBA', 'Master of Business Administration', NULL, NULL, 'Graduate degree in business administration and advanced management', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50075
   (50076, 'MCE', 'Master of Civil Engineering', NULL, NULL, 'Graduate degree in civil engineering with specialized focus on infrastructure and construction', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50076
   (50077, 'MDI', 'Master of Divinity', NULL, NULL, 'Graduate degree in divinity and theological studies for religious ministry', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50077
-  (50078, 'MED', 'Master of Education', NULL, NULL, 'Graduate degree in education for advanced teaching and educational leadership', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50078
   (50079, 'MEE', 'Master of Electrical Engineering', NULL, NULL, 'Graduate degree in electrical engineering with specialized technical focus', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50079
   (50080, 'ME', 'Master of Engineering', NULL, NULL, 'Graduate degree in engineering disciplines for advanced technical practice', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50080
   (50081, 'MFA', 'Master of Fine Arts', NULL, NULL, 'Graduate degree in fine arts, visual arts, creative writing, or performing arts', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50081
   (50082, 'MME', 'Master of Mechanical Engineering', NULL, NULL, 'Graduate degree in mechanical engineering with specialized technical focus', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50082
-  (50083, 'MS', 'Master of Science', NULL, NULL, 'Graduate degree in science, technology, engineering, mathematics, or related technical fields', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50083
   (50084, 'MSL', 'Master of Science - Law', NULL, NULL, 'Graduate degree combining science and legal studies', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50084
   (50085, 'MTH', 'Master of Theology', NULL, NULL, 'Graduate degree in theology and advanced religious studies', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL), -- 50085
   (50086, 'MDA', 'Medical Assistant', NULL, NULL, 'Healthcare support professional performing clinical and administrative tasks in medical settings', TRUE, TRUE, FALSE, FALSE, TRUE, NULL, NULL), -- 50086

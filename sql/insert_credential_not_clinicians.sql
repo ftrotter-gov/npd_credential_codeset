@@ -47,7 +47,6 @@ VALUES
   (90027, 'CMP',    'Certified Meeting Professional',     'Events Industry Council', 'https://www.eventscouncil.org/', 'Professional certification for meeting and event planning', FALSE, FALSE, TRUE,  FALSE, FALSE, NULL, NULL), -- 90027
   
   -- Legal Credentials
-  (90028, 'JD',    'Juris Doctor',                       NULL, NULL, 'Professional doctoral degree in law required for legal practice', TRUE,  FALSE, FALSE, FALSE, FALSE, NULL, NULL), -- 90028
   (90029, 'ESQ',    'Esquire',                            NULL, NULL, 'Professional title for licensed attorneys admitted to the bar', TRUE,  FALSE, FALSE, FALSE, FALSE, NULL, NULL), -- 90029
   
 

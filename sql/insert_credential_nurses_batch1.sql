@@ -24,14 +24,8 @@ INSERT INTO dctnry.credential
    is_board_certification, is_credential_retired, is_fhir_credential, created_at, updated_at)
 VALUES
   -- Active ANCC Nurse Practitioner Certifications
-  (1009, 'AGACNP-BC', 'Adult-Gerontology Acute Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1009
-  (1010, 'AGPCNP-BC', 'Adult-Gerontology Primary Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1010
-  (1011, 'FNP-BC', 'Family Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1011
-  (1012, 'PMHNP-BC', 'Psychiatric-Mental Health Nurse Practitioner (across the life span)', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1012
   
   -- Retired ANCC Nurse Practitioner Certifications (Renewal Only)
-  (1013, 'ACNP-BC', 'Acute Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1013
-  (1014, 'ANP-BC', 'Adult Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1014
   (1015, 'GNP-BC', 'Gerontological Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1015
   (1016, 'PPCNP-BC', 'Pediatric Primary Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1016
   (1017, 'SNP-BC', 'School Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1017
@@ -113,8 +107,6 @@ INSERT INTO dctnry.credential
    is_board_certification, is_credential_retired, is_fhir_credential, created_at, updated_at)
 VALUES
   (1061, 'CPN', 'Certified Pediatric Nurse', 'Pediatric Nursing Certification Board', 'https://www.pncb.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1061
-  (1062, 'CPNP-AC', 'Acute Care Certified Pediatric Nurse Practitioner', 'Pediatric Nursing Certification Board', 'https://www.pncb.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1062
-  (1063, 'CPNP-PC', 'Primary Care Certified Pediatric Nurse Practitioner', 'Pediatric Nursing Certification Board', 'https://www.pncb.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1063
   (1064, 'PMHS', 'Pediatric Primary Care Mental Health Specialist', 'Pediatric Nursing Certification Board', 'https://www.pncb.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 1064
 
 -- AACN (American Association of Critical-Care Nurses) Certifications
@@ -158,8 +150,6 @@ VALUES
   (1082, 'RNC-IAP', 'Inpatient Antepartum Nursing', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1082
   
   -- Nurse Practitioner Certifications
-  (1083, 'NNP-BC', 'Neonatal Nurse Practitioner', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1083
-  (1084, 'WHNP-BC', 'Womens Health Care Nurse Practitioner', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1084
   
   -- Subspecialty Certifications
   (1085, 'C-EFM', 'Electronic Fetal Monitoring', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1085

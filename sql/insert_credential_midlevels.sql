@@ -47,7 +47,6 @@ INSERT INTO dctnry.credential
    is_board_certification, is_credential_retired, is_fhir_credential, created_at, updated_at)
 VALUES
   -- Advanced Practice Registered Nurse variants
-  (5019, 'APRN-CNP', 'Advanced Practice Registered Nurse - Certified Nurse Practitioner', NULL, NULL, 'Advanced practice registered nurse with specialized graduate education and national certification in a nurse practitioner role', TRUE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5019
   (5020, 'APNP',   'Advanced Practice Nurse Practitioner', NULL, NULL, 'Advanced practice nurse with graduate education providing comprehensive healthcare services', TRUE, TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5020
   -- Pediatric Nurse Practitioners
   (5021, 'PNP',    'Pediatric Nurse Practitioner',       NULL, NULL, 'Nurse practitioner specializing in healthcare for infants, children, and adolescents', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5021
@@ -62,12 +61,9 @@ VALUES
   (5026, 'WHNP',  'Womens Health Nurse Practitioner', NULL, NULL, 'Nurse practitioner specializing in comprehensive healthcare for women across the lifespan', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5026
   -- Pediatric Nurse Practitioner Primary Care
   (5027, 'CPNP-PC', 'Certified Pediatric Nurse Practitioner Primary Care', 'Pediatric Nursing Certification Board', 'https://www.pncb.org', 'Certified nurse practitioner providing primary care to infants, children, and adolescents', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5027
-  -- Clinical Nurse Specialists
-  (5028, 'CNS',   'Clinical Nurse Specialist',          NULL, NULL, 'Advanced practice registered nurse with graduate preparation in a specialized area of nursing practice', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5028
   -- Certified Family Nurse Practitioners
   (5029, 'CFNP',  'Certified Family Nurse Practitioner', NULL, NULL, 'Certified nurse practitioner providing comprehensive primary care to individuals and families', TRUE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5029
   -- Adult-Gerontology Nurse Practitioners
-  (5030, 'AGNP-C', 'Adult-Gerontology Nurse Practitioner Certified', NULL, NULL, 'Certified nurse practitioner specializing in healthcare for adults and older adults', TRUE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5030
   (5031, 'AGPCNP-BC', 'Adult-Gerontology Primary Care Nurse Practitioner Board Certified', 'American Nurses Credentialing Center', 'https://www.nursingworld.org/ancc', 'Board certified nurse practitioner providing primary care to adults and older adults', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5031
   (5032, 'AGNP',   'Adult-Gerontology Nurse Practitioner', NULL, NULL, 'Nurse practitioner specializing in healthcare for adults and older adults across care settings', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5032
   (5033, 'WHNP-BC', 'Womens Health Nurse Practitioner Board Certified', 'National Certification Corporation', 'https://www.nccwebsite.org', 'Board certified nurse practitioner specializing in comprehensive womens health care', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5033
@@ -90,7 +86,6 @@ VALUES
   -- Pediatric Nurse Practitioner Acute Care
   (5039, 'CPNP-AC', 'Certified Pediatric Nurse Practitioner - Acute Care', 'Pediatric Nursing Certification Board', 'https://www.pncb.org', 'Certified nurse practitioner specializing in acute care management for critically ill infants, children, and adolescents', FALSE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5039
   -- Adult Gerontology Acute Care Nurse Practitioner
-  (5040, 'ACNPC-AG', 'Acute Care Nurse Practitioner Certified - Adult Gerontology', NULL, NULL, 'Certified nurse practitioner specializing in acute care for adults and geriatric populations in hospital and critical care settings', TRUE, TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5040
   (5041, 'AGPCNP', 'Adult Gerontology Primary Care Nurse Practitioner', NULL, NULL, 'Nurse practitioner providing primary care services to adults and older adults in outpatient and community settings', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL), -- 5041
   -- Registered Nurse Practitioner
   (5042, 'RNP',    'Registered Nurse Practitioner',      NULL, NULL, 'Registered nurse with advanced practice education and licensing to provide comprehensive healthcare services', TRUE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL), -- 5042

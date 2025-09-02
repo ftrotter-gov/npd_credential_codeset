@@ -120,9 +120,6 @@ VALUES
   -- Clinical Nurse Leader
   (1169, 'CNL', 'Clinical Nurse Leader', 'American Association of Colleges of Nursing', 'https://www.aacnnursing.org/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1169
   
-  -- Certified Nurse Midwife
-  (1170, 'CNM', 'Certified Nurse Midwife', 'American Midwifery Certification Board', 'https://www.amcbmidwife.org/amcb-certification', NULL, FALSE, TRUE, TRUE, FALSE, TRUE, NULL, NULL), -- 1170
-  
   -- Addictions Nursing
   (1171, 'CARN', 'Certified Addictions Registered Nurse', 'Certified Addictions Registered Nurse - Board of Certification', 'https://cnetnurse.com', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1171
   (1172, 'CARN-AP', 'Certified Addictions Registered Nurse - Advanced Practice', 'Certified Addictions Registered Nurse - Board of Certification', 'https://cnetnurse.com', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1172
@@ -145,7 +142,6 @@ VALUES
   (1183, 'DCNP', 'Dermatology Certified Nurse Practitioner', 'Dermatology Nurses Association', 'https://dnanurse.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1183
   
   -- Nephrology Nursing
-  (1184, 'CDN', 'Certified Dialysis Nurse', 'Nephrology Nursing Certification Commission', 'https://nncc-exam.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1184
   
   -- Forensic Nursing
   (1185, 'SANE-A', 'Sexual Assault Nurse Examiner - Adult/Adolescent', 'International Association of Forensic Nurses', 'https://forensicnurses.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1185
@@ -179,13 +175,11 @@ VALUES
   -- Additional Specialty Nursing Certifications
   (1198, 'CWCA', 'Certified Wound Care Associate', 'American Board of Wound Management', 'https://abwmcertified.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1198
   (1199, 'CWS', 'Certified Wound Specialist', 'American Board of Wound Management', 'https://abwmcertified.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1199
-  (1200, 'NBC-HWC', 'National Board Certified Health and Wellness Coach', 'National Board for Health and Wellness Coaching', 'https://nbhwc.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1200
   (1201, 'MWC', 'Medical Writer Certified', 'American Medical Writers Association', 'https://amwa.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1201
 
 -- Additional Missing Nursing Credentials
   (1202, 'FAAN', 'Fellow of the American Academy of Nursing', 'American Academy of Nursing', 'https://www.aannet.org', 'Honorary fellowship recognizing significant contributions to nursing', FALSE, TRUE, FALSE, FALSE, FALSE, NULL, NULL), -- 1202
   (1203, 'ACNPC', 'Acute Care Nurse Practitioner Certified', 'American Association of Critical-Care Nurses', 'https://www.aacn.org', 'Board certification for acute care nurse practitioners', FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1203
-  (1204, 'CPNP', 'Certified Pediatric Nurse Practitioner', 'Pediatric Nursing Certification Board', 'https://www.pncb.org', 'Board certification for pediatric nurse practitioners', FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1204
   (1205, 'GNP', 'Gerontological Nurse Practitioner', 'American Nurses Credentialing Center', 'https://www.nursingworld.org', 'Nurse practitioner specializing in geriatric care', FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL), -- 1205
   (1206, 'NPC', 'Nurse Practitioner Certified', 'Various certification boards', 'Various', 'Generic nurse practitioner certification', TRUE, TRUE, TRUE, FALSE, FALSE, NULL, NULL), -- 1206
 
