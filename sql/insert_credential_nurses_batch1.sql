@@ -176,7 +176,7 @@ VALUES
   -- Renewal Only ONCC Certifications  
   (1097, 'AOCNS', 'Advanced Oncology Certified Clinical Nurse Specialist', 'Oncology Nursing Certification Corporation', 'https://www.oncc.org/certification-renewal-guide', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1097
   (1098, 'CPON', 'Certified Pediatric Oncology Nurse', 'Oncology Nursing Certification Corporation', 'https://www.oncc.org/certification-renewal-guide', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1098
-  (1099, 'AOCN', 'Advanced Oncology Certified Nurse', 'Oncology Nursing Certification Corporation', 'https://www.oncc.org/certification-renewal-guide', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL); -- 1099
+  (1099, 'AOCN', 'Advanced Oncology Certified Nurse', 'Oncology Nursing Certification Corporation', 'https://www.oncc.org/certification-renewal-guide', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL); -- 1099
 
 -- BCEN (Board of Certification for Emergency Nursing) Certifications
 INSERT INTO dctnry.credential

@@ -7,7 +7,6 @@ INSERT INTO dctnry.credential
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
 VALUES
   -- Academic Degrees - Doctoral Level
-  (90000, 'PhD',  'Doctor of Philosophy',                   NULL, NULL, 'Academic doctoral degree awarded for original research and scholarship in various fields', TRUE,  FALSE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 90000
   (90001, 'EdD',   'Doctor of Education',                 NULL, NULL, 'Professional doctoral degree for advanced practice in education leadership and policy', TRUE,  FALSE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 90001
   (90002, 'DPH',    'Doctor of Public Health',           NULL, NULL, 'Professional doctoral degree focusing on population health, policy, and public health practice', TRUE,  FALSE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 90002
   

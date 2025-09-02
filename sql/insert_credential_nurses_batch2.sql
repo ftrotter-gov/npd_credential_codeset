@@ -6,7 +6,7 @@
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
-   is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, duplicate_abbreviation_code, created_at, updated_at)
+   is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
 VALUES
   -- HIV/AIDS Nursing Certifications
   (1106, 'AACRN', 'Advanced HIV/AIDS Certified Registered Nurse', 'HIV/AIDS Nursing Certification Board', 'https://hancb.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1106

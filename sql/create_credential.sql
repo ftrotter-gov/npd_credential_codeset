@@ -12,6 +12,7 @@
 -- *  created_at - should always be NULL so that the database can set
 -- *  updated_at - should always be NULL so that the database can set.
 
+DROP TABLE IF EXISTS dctnry.credential;
 
 CREATE TABLE dctnry.credential (
   id                          INT PRIMARY KEY,
