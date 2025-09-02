@@ -1,9 +1,11 @@
 FHIR Credentials
 ================
 
+Then we need to find all of the following credentials in our insert file under ./sql.
+And we need to set the value of is_fhir_credential to true for these values.
 
-Then we need to find all of the following credentials in our insert file under ./sql. 
-And we need to set the value of is_fhir_credential to true for these values. 
+Choose all of the credentials that fit into a give ./sql/insert_*.sql file, then add the "true" value to the right column in the table (i.e. the third from the end is currenly always false, and it needs to be set to true. )
+Then return to this file and mark the row below as "done" and then move to the next group.
 
 
 These are from: https://build.fhir.org/ig/HL7/fhir-us-ndh/ValueSet-IndividualSpecialtyAndDegreeLicenseCertificateVS.html
