@@ -74,7 +74,7 @@ VALUES
   
   -- Communication Disorders and Advanced Practice
   (50034, 'MCD',    'Master of Communication Disorders',  NULL, NULL, 'Graduate degree in communication sciences and disorders', TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL), -- 50034
-  (50035, 'AP',     'Advanced Practitioner',              NULL, NULL, 'General designation for advanced level healthcare practitioner', TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL), -- 50035
+  (50035, 'AP',     'Advanced Practitioner',              NULL, NULL, 'General designation for advanced level healthcare practitioner', TRUE,  TRUE,  FALSE, FALSE, FALSE, 1, NULL, NULL), -- 50035
   
   -- Advanced Clinical Education Credentials
   (50036, 'CDPT',   'Clinical Doctor of Physical Therapy', NULL, NULL, 'Advanced clinical doctorate in physical therapy', TRUE, TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL), -- 50036
@@ -122,7 +122,7 @@ VALUES
   (50063, 'BE', 'Bachelor or Engineering', NULL, NULL, 'Four-year undergraduate degree in engineering disciplines', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50063
   (50064, 'BFA', 'Bachelor of Fine Arts', NULL, NULL, 'Four-year undergraduate degree in fine arts, visual arts, or performing arts', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50064
   (50066, 'BSL', 'Bachelor of Science - Law', NULL, NULL, 'Four-year undergraduate degree combining science and legal studies', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50066
-  (50067, 'BT', 'Bachelor of Theology', NULL, NULL, 'Four-year undergraduate degree in theological studies and religious education', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50067
+  (50067, 'BT', 'Bachelor of Theology', NULL, NULL, 'Four-year undergraduate degree in theological studies and religious education', TRUE, FALSE, FALSE, FALSE, TRUE, 3, NULL, NULL), -- 50067
   (50068, 'CER', 'Certificate', NULL, NULL, 'Certificate credential representing completion of specialized training or education program', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50068
   (50069, 'CTR', 'Certified Tumor Registrar', NULL, NULL, 'Certified professional specializing in cancer data collection and registry management', TRUE, TRUE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 50069
   (50070, 'DIP', 'Diploma', NULL, NULL, 'Diploma credential representing completion of educational or training program', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50070
@@ -138,7 +138,7 @@ VALUES
   (50084, 'MSL', 'Master of Science - Law', NULL, NULL, 'Graduate degree combining science and legal studies', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50084
   (50085, 'MTH', 'Master of Theology', NULL, NULL, 'Graduate degree in theology and advanced religious studies', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50085
   (50086, 'MDA', 'Medical Assistant', NULL, NULL, 'Healthcare support professional performing clinical and administrative tasks in medical settings', TRUE, TRUE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50086
-  (50087, 'MT', 'Medical Technician', NULL, NULL, 'Healthcare technician providing technical support in medical laboratories and clinical settings', TRUE, TRUE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50087
+  (50087, 'MT', 'Medical Technician', NULL, NULL, 'Healthcare technician providing technical support in medical laboratories and clinical settings', TRUE, TRUE, FALSE, FALSE, TRUE, 1, NULL, NULL), -- 50087
   (50088, 'NG', 'Non-Graduate', NULL, NULL, 'Individual who has not completed formal degree or certification program', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50088
   (50089, 'RMA', 'Registered Medical Assistant', NULL, NULL, 'Registered medical assistant with advanced certification in clinical and administrative medical support', TRUE, TRUE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 50089
   (50090, 'SEC', 'Secretarial Certificate', NULL, NULL, 'Certificate in secretarial skills and administrative support', TRUE, FALSE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 50090

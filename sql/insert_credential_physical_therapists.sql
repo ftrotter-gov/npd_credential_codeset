@@ -56,7 +56,7 @@ VALUES
 -- Additional Acupuncture Credentials from FDA List
   (20040, 'LicAc', 'Licensed Acupuncturist', NULL, NULL, 'Licensed practitioner of acupuncture and Traditional Chinese Medicine techniques', TRUE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 20040
   (20041, 'AK', 'Acupuncturist (Pennsylvania)', NULL, NULL, 'Acupuncturist licensed specifically in Pennsylvania', TRUE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 20041
-  (20042, 'AP', 'Acupuncture Physician', NULL, NULL, 'Physician trained and licensed to practice acupuncture medicine', TRUE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 20042
+  (20042, 'AP', 'Acupuncture Physician', NULL, NULL, 'Physician trained and licensed to practice acupuncture medicine', TRUE, TRUE, FALSE, FALSE, FALSE, 2, NULL, NULL), -- 20042
   (20043, 'CA', 'Certified Acupuncturist', NULL, NULL, 'Certified practitioner of acupuncture therapy and Traditional Chinese Medicine', TRUE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 20043
   (20044, 'DAc', 'Diplomate in Acupuncture', NULL, NULL, 'Diplomate-level acupuncturist with advanced training and certification', TRUE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 20044
   (20045, 'DAc (RI)', 'Doctor of Acupuncture, Rhode Island', NULL, NULL, 'Doctor of Acupuncture degree specifically recognized in Rhode Island', TRUE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 20045

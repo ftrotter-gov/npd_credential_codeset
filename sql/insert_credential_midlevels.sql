@@ -18,7 +18,6 @@ VALUES
   -- General Nurse Practitioners
   (5005, 'NP',    'Nurse Practitioner',                  NULL, NULL, 'Advanced practice registered nurse with graduate education providing healthcare services including diagnosis, treatment, and management of medical conditions', TRUE,  TRUE,  FALSE, FALSE, TRUE, 0, NULL, NULL), -- 5005
   -- Family Nurse Practitioner Certified
-  (5006, 'FNP-C', 'Family Nurse Practitioner Certified', 'American Nurses Credentialing Center', 'https://www.nursingworld.org/ancc', 'Nationally certified family nurse practitioner providing primary care across the lifespan', FALSE, TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL), -- 5006
   -- Advanced Registered Nurse Practitioners
   (5007, 'ARNP',  'Advanced Registered Nurse Practitioner', NULL, NULL, 'Advanced practice registered nurse with graduate education and expanded scope of practice', TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL), -- 5007
   (5008, 'CRNP',  'Certified Registered Nurse Practitioner', NULL, NULL, 'Certified registered nurse with advanced education and training to provide comprehensive healthcare services', TRUE, TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL), -- 5008

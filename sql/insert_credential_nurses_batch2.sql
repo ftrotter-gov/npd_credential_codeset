@@ -70,7 +70,7 @@ VALUES
   (1144, 'CGRN', 'Certified Gastroenterology Registered Nurse', 'American Board of Certification for Gastroenterology Nurses', 'https://abcgn.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1144
   
   -- Radiology Nursing
-  (1145, 'CRN', 'Certified Radiologic Nurse', 'Association for Radiologic and Imaging Nursing', 'https://arinursing.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1145
+  (1145, 'CRN', 'Certified Radiologic Nurse', 'Association for Radiologic and Imaging Nursing', 'https://arinursing.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 2, NULL, NULL), -- 1145
   
   -- Ophthalmology Nursing
   (1146, 'CRNO', 'Certification for Registered Nurses of Ophthalmology', 'American Society of Ophthalmic Registered Nurses', 'https://asorn.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1146
@@ -126,12 +126,12 @@ VALUES
   
   -- Correctional Health Nursing
   (1173, 'CCHP-RN', 'Certified Correctional Health Professional-RN', 'National Commission on Correctional Health Care', 'https://ncchc.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1173
-  (1174, 'CNN', 'Certified Corrections Nurse', 'American Correctional Association', 'https://aca.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1174
+  (1174, 'CNN', 'Certified Corrections Nurse', 'American Correctional Association', 'https://aca.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 2, NULL, NULL), -- 1174
   (1175, 'CNN/M', 'Certified Corrections Nurse/Manager', 'American Correctional Association', 'https://aca.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1175
   
   -- Dialysis Nursing
   (1176, 'CDN', 'Certified Dialysis Nurse', 'Nephrology Nursing Certification Commission', 'https://nncc-exam.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1176
-  (1177, 'CNN', 'Certified Nephrology Nurse', 'Nephrology Nursing Certification Commission', 'https://nncc-exam.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1177
+  (1177, 'CNN', 'Certified Nephrology Nurse', 'Nephrology Nursing Certification Commission', 'https://nncc-exam.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 1, NULL, NULL), -- 1177
   (1178, 'CNN-NP', 'Certified Nephrology Nurse-Nurse Practitioner', 'Nephrology Nursing Certification Commission', 'https://nncc-exam.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1178
   (1179, 'CCHT', 'Certified Clinical Hemodialysis Technician', 'Nephrology Nursing Certification Commission', 'https://nncc-exam.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1179
   (1180, 'CCHT-A', 'Certified Clinical Hemodialysis Technician-Advanced', 'Nephrology Nursing Certification Commission', 'https://nncc-exam.org', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1180
@@ -193,6 +193,6 @@ VALUES
   (1211, 'PN', 'Advanced Practice Nurse', NULL, NULL, 'Advanced Practice Nurse with graduate-level education and clinical training', TRUE, TRUE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 1211
   (1212, 'BN', 'Bachelor of Nursing', NULL, NULL, 'Bachelor degree in nursing providing foundational nursing education', TRUE, TRUE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 1212  
   (1213, 'CANP', 'Certified Adult Nurse Practitioner', NULL, NULL, 'Certified Adult Nurse Practitioner specializing in adult healthcare', TRUE, TRUE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 1213
-  (1214, 'CRN', 'Certified Registered Nurse', NULL, NULL, 'Certified Registered Nurse with advanced certification beyond basic RN license', TRUE, TRUE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 1214
+  (1214, 'CRN', 'Certified Registered Nurse', NULL, NULL, 'Certified Registered Nurse with advanced certification beyond basic RN license', TRUE, TRUE, TRUE, FALSE, TRUE, 1, NULL, NULL), -- 1214
   (1215, 'CNS', 'Certified Nurse Specialist', NULL, NULL, 'Certified Nurse Specialist with advanced practice nursing expertise in specialized clinical areas', TRUE, TRUE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 1215
   (1216, 'FPNP', 'Family Practice Nurse Practitioner', NULL, NULL, 'Family Practice Nurse Practitioner providing comprehensive primary care to families', TRUE, TRUE, TRUE, FALSE, TRUE, NULL, NULL); -- 1216

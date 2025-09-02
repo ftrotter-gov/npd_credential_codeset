@@ -43,8 +43,7 @@ VALUES
   
   -- Retired ANCC Clinical Nurse Specialist Certifications (Renewal Only)
   (1021, 'ACNS-BC', 'Adult Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1021
-  (1022, 'PMHCNS-BC', 'Adult Psychiatric-Mental Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1022
-  (1023, 'PMHCNS-BC', 'Child/Adolescent Psychiatric-Mental Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1023
+  (1022, 'PMHCNS-BC', 'Psychiatric Mental Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', 'Board certification for clinical nurse specialists in psychiatric and mental health nursing.', FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1022
   (1024, 'GCNS-BC', 'Gerontological Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1024
   (1025, 'HHCNS-BC', 'Home Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1025
   (1026, 'PCNS-BC', 'Pediatric Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1026
@@ -73,20 +72,21 @@ VALUES
   
   -- Retired ANCC RN Certifications (Renewal Only)
   (1041, 'CCCTM', 'Care Coordination and Transition Management', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1042, 'RN-BC', 'Certified Vascular Nurse', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1043, 'RN-BC', 'College Health Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1044, 'RN-BC', 'Community Health Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1045, 'RN-BC', 'Faith Community Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
+  (1042, 'RN-BC', 'Certified Vascular Nurse', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
+  (1043, 'RN-BC', 'College Health Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
+  (1044, 'RN-BC', 'Community Health Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
+  (1045, 'RN-BC', 'Faith Community Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
   (1046, 'AFN-BC', 'Forensic Nursing Advanced', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1047, 'RN-BC', 'General Nursing Practice', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
+  (1047, 'RN-BC', 'General Nursing Practice', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
   (1048, 'AGN-BC', 'Genetics Nursing Advanced', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1049, 'RN-BC', 'Hemostasis Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1050, 'RN-BC', 'High-Risk Perinatal Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1051, 'RN-BC', 'Home Health Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1052, 'RN-BC', 'Perinatal Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
+  (1049, 'RN-BC', 'Hemostasis Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
+  (1050, 'RN-BC', 'High-Risk Perinatal Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
+  (1051, 'RN-BC', 'Home Health Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
+  (1052, 'RN-BC', 'Perinatal Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
   (1053, 'PHNA-BC', 'Public Health Nursing Advanced', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1054, 'RN-BC', 'Rheumatology Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
-  (1055, 'RN-BC', 'School Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL),
+  (1054, 'RN-BC', 'Rheumatology Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
+  (1055, 'RN-BC', 'School Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
+  (1217, 'RN-BC', 'General Nursing Practice Certification', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 1, NULL, NULL), -- 1217
   (1056, 'NHDP-BC', 'National Healthcare Disaster', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL);
 
 -- AANPCB (American Academy of Nurse Practitioners Certification Board) Certifications
