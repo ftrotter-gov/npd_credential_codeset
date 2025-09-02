@@ -15,7 +15,7 @@ VALUES
   (1005, 'BSN',    'Bachelor of Science in Nursing',    NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, TRUE, 0, NULL, NULL), -- 1005
   (1006, 'STNA',   'State Tested Nursing Assistant',    NULL, NULL, NULL, TRUE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL), -- 1006
   (1007, 'MSN',    'Master of Science in Nursing',      NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, TRUE, 0, NULL, NULL), -- 1007
-  (1008, 'NURSE',  'Nurse',                              NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL); -- 1008
+  (1008, 'NURSE',  'Nurse',                              NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL); -- 1008
 
 -- ANCC (American Nurses Credentialing Center) Nurse Practitioner Certifications  
 INSERT INTO dctnry.credential
@@ -30,7 +30,7 @@ VALUES
   (1016, 'PPCNP-BC', 'Pediatric Primary Care Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1016
   (1017, 'SNP-BC', 'School Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1017
   (1018, 'ADM-BC', 'Advanced Diabetes Management', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1018
-  (1019, 'ENP-BC', 'Emergency Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL); -- 1019
+  (1019, 'ENP-BC', 'Emergency Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL); -- 1019
 
 -- ANCC Clinical Nurse Specialist Certifications
 INSERT INTO dctnry.credential
@@ -48,7 +48,7 @@ VALUES
   (1025, 'HHCNS-BC', 'Home Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1025
   (1026, 'PCNS-BC', 'Pediatric Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1026
   (1027, 'PHCNS-BC', 'Public/Community Health Clinical Nurse Specialist', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL), -- 1027
-  (1028, 'CNS-BC', 'Clinical Nurse Specialist Core', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL); -- 1028
+  (1028, 'CNS-BC', 'Clinical Nurse Specialist Core', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL); -- 1028
 
 -- ANCC Registered Nurse Certifications
 INSERT INTO dctnry.credential
@@ -87,7 +87,7 @@ VALUES
   (1054, 'RN-BC', 'Rheumatology Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
   (1055, 'RN-BC', 'School Nursing', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 2, NULL, NULL),
   (1217, 'RN-BC', 'General Nursing Practice Certification', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 1, NULL, NULL), -- 1217
-  (1056, 'NHDP-BC', 'National Healthcare Disaster', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, NULL, NULL);
+  (1056, 'NHDP-BC', 'National Healthcare Disaster', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL);
 
 -- AANPCB (American Academy of Nurse Practitioners Certification Board) Certifications
 INSERT INTO dctnry.credential
@@ -98,7 +98,7 @@ VALUES
   (1057, 'FNP-C', 'Family Nurse Practitioner', 'American Academy of Nurse Practitioners Certification Board (AANPCB)', 'https://www.aanpcert.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL),
   (1058, 'AGNP-C', 'Adult-Gerontology Primary Care Nurse Practitioner', 'American Academy of Nurse Practitioners Certification Board (AANPCB)', 'https://www.aanpcert.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL),
   (1059, 'ENP-C', 'Emergency Nurse Practitioner', 'American Academy of Nurse Practitioners Certification Board (AANPCB)', 'https://www.aanpcert.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL),
-  (1060, 'PMHNP-C', 'Psychiatric Mental Health Nurse Practitioner', 'American Academy of Nurse Practitioners Certification Board (AANPCB)', 'https://www.aanpcert.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL);
+  (1060, 'PMHNP-C', 'Psychiatric Mental Health Nurse Practitioner', 'American Academy of Nurse Practitioners Certification Board (AANPCB)', 'https://www.aanpcert.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL);
 
 -- PNCB (Pediatric Nursing Certification Board) Certifications
 INSERT INTO dctnry.credential
@@ -107,7 +107,7 @@ INSERT INTO dctnry.credential
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
 VALUES
   (1061, 'CPN', 'Certified Pediatric Nurse', 'Pediatric Nursing Certification Board', 'https://www.pncb.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1061
-  (1064, 'PMHS', 'Pediatric Primary Care Mental Health Specialist', 'Pediatric Nursing Certification Board', 'https://www.pncb.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 1064
+  (1064, 'PMHS', 'Pediatric Primary Care Mental Health Specialist', 'Pediatric Nursing Certification Board', 'https://www.pncb.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL); -- 1064
 
 -- AACN (American Association of Critical-Care Nurses) Certifications
 INSERT INTO dctnry.credential
@@ -134,7 +134,7 @@ VALUES
   (1074, 'ACNPC-AG', 'Acute Care Nurse Practitioner Certified (Adult-Gerontology)', 'American Association of Critical-Care Nurses', 'https://www.aacn.org/certification/get-certified', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1074
   (1075, 'ACCNS-AG', 'Acute Care Clinical Nurse Specialist (Adult-Gerontology)', 'American Association of Critical-Care Nurses', 'https://www.aacn.org/certification/get-certified', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1075
   (1076, 'ACCNS-P', 'Acute Care Clinical Nurse Specialist (Pediatric)', 'American Association of Critical-Care Nurses', 'https://www.aacn.org/certification/get-certified', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1076
-  (1077, 'ACCNS-N', 'Acute Care Clinical Nurse Specialist (Neonatal)', 'American Association of Critical-Care Nurses', 'https://www.aacn.org/certification/get-certified', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 1077
+  (1077, 'ACCNS-N', 'Acute Care Clinical Nurse Specialist (Neonatal)', 'American Association of Critical-Care Nurses', 'https://www.aacn.org/certification/get-certified', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL); -- 1077
 
 -- NCC (National Certification Corporation) Certifications
 INSERT INTO dctnry.credential
@@ -158,7 +158,7 @@ VALUES
   (1088, 'C-ELBW', 'Care of the Extremely Low Birth Weight Neonate', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1088
   (1089, 'C-ONQS', 'Obstetric and Neonatal Quality and Safety', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1089
   (1090, 'C-RHI', 'Reproductive Health and Infertility', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1090
-  (1091, 'C-OBE', 'Obstetric Emergencies', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 1091
+  (1091, 'C-OBE', 'Obstetric Emergencies', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL); -- 1091
 
 -- ONCC (Oncology Nursing Certification Corporation) Certifications
 INSERT INTO dctnry.credential
@@ -189,4 +189,4 @@ VALUES
   (1102, 'CPEN', 'Certified Pediatric Emergency Nurse', 'Board of Certification for Emergency Nursing', 'https://bcen.org/cen/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1102
   (1103, 'CTRN', 'Certified Transport Registered Nurse', 'Board of Certification for Emergency Nursing', 'https://bcen.org/cen/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1103
   (1104, 'TCRN', 'Trauma Certified Registered Nurse', 'Board of Certification for Emergency Nursing', 'https://bcen.org/cen/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 1104
-  (1105, 'CBRN', 'Certified Burn Registered Nurse', 'Board of Certification for Emergency Nursing', 'https://bcen.org/cen/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, NULL, NULL); -- 1105
+  (1105, 'CBRN', 'Certified Burn Registered Nurse', 'Board of Certification for Emergency Nursing', 'https://bcen.org/cen/', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL); -- 1105

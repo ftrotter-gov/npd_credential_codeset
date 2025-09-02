@@ -26,7 +26,7 @@ VALUES
   -- Nutrition and Dietetic Services
   (50010, 'RD',    'Registered Dietitian',                'Commission on Dietetic Registration', 'https://www.cdrnet.org', 'Licensed nutrition professional providing medical nutrition therapy', FALSE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL), -- 50010
   (50011, 'RDN',    'Registered Dietitian Nutritionist',  'Commission on Dietetic Registration', 'https://www.cdrnet.org', 'Updated credential name for Registered Dietitian', FALSE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL), -- 50011
-  (50012, 'REGISTERED-DIETITIAN', 'Registered Dietitian', 'Commission on Dietetic Registration', 'https://www.cdrnet.org', 'Licensed nutrition professional providing medical nutrition therapy', FALSE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL); -- 50012
+  (50012, 'REGISTERED-DIETITIAN', 'Registered Dietitian', 'Commission on Dietetic Registration', 'https://www.cdrnet.org', 'Licensed nutrition professional providing medical nutrition therapy', FALSE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL); -- 50012
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
@@ -54,7 +54,7 @@ VALUES
   
   -- Specialized Clinical Services
   (50027, 'IDC',   'Infection Disease Control Specialist', NULL, NULL, 'Specialist in preventing and controlling infectious diseases', TRUE, TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL), -- 50027
-  (50028, 'IDMT',   'Independent Duty Medical Technician', NULL, NULL, 'Military medical technician providing independent patient care', TRUE, TRUE,  FALSE,  FALSE, FALSE, NULL, NULL); -- 50028
+  (50028, 'IDMT',   'Independent Duty Medical Technician', NULL, NULL, 'Military medical technician providing independent patient care', TRUE, TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL); -- 50028
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
@@ -142,4 +142,4 @@ VALUES
   (50088, 'NG', 'Non-Graduate', NULL, NULL, 'Individual who has not completed formal degree or certification program', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 50088
   (50089, 'RMA', 'Registered Medical Assistant', NULL, NULL, 'Registered medical assistant with advanced certification in clinical and administrative medical support', TRUE, TRUE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 50089
   (50090, 'SEC', 'Secretarial Certificate', NULL, NULL, 'Certificate in secretarial skills and administrative support', TRUE, FALSE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 50090
-  (50091, 'TS', 'Trade School Graduate', NULL, NULL, 'Graduate of trade school or vocational training program in specialized technical skills', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL); -- 50091
+  (50091, 'TS', 'Trade School Graduate', NULL, NULL, 'Graduate of trade school or vocational training program in specialized technical skills', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL); -- 50091

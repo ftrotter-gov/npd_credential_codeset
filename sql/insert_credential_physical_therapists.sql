@@ -30,7 +30,7 @@ VALUES
   (20021, 'OTA',   'Occupational Therapy Assistant',     NULL, NULL, 'Assistant who provides occupational therapy services under the supervision of an occupational therapist.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL), -- 20021
   (20022, 'LPT',   'Licensed Physical Therapist',        NULL, NULL, 'Physical therapist licensed by state regulatory board to independently practice physical therapy.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL), -- 20022
   (20023, 'MOTR/L', 'Master of Occupational Therapy Registered/Licensed', 'National Board for Certification in Occupational Therapy', 'https://www.nbcot.org/', 'Master level occupational therapist with both NBCOT certification and state licensure.', FALSE, TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL), -- 20023
-  (20024, 'CF-SLP', 'Clinical Fellow Speech-Language Pathologist', 'American Speech-Language-Hearing Association', 'https://www.asha.org/', 'Speech-language pathologist completing supervised clinical fellowship year as part of ASHA certification requirements.', FALSE, TRUE,  FALSE,  FALSE, FALSE, NULL, NULL); -- 20024
+  (20024, 'CF-SLP', 'Clinical Fellow Speech-Language Pathologist', 'American Speech-Language-Hearing Association', 'https://www.asha.org/', 'Speech-language pathologist completing supervised clinical fellowship year as part of ASHA certification requirements.', FALSE, TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL); -- 20024
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
@@ -62,4 +62,4 @@ VALUES
   (20045, 'DAc (RI)', 'Doctor of Acupuncture, Rhode Island', NULL, NULL, 'Doctor of Acupuncture degree specifically recognized in Rhode Island', TRUE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 20045
   (20046, 'DAc (WV)', 'Doctor of Acupuncture, West Virginia', NULL, NULL, 'Doctor of Acupuncture degree specifically recognized in West Virginia', TRUE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 20046
   (20047, 'NCCA', 'National Commission for the Certification of Acupuncturists', 'National Commission for the Certification of Acupuncturists', NULL, 'Certification by National Commission for the Certification of Acupuncturists', FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL), -- 20047
-  (20048, 'FIACA', 'Fellow of the International Academy of Clinical Acupuncture', 'International Academy of Clinical Acupuncture', NULL, 'Fellowship in clinical acupuncture', FALSE, TRUE, FALSE, FALSE, FALSE, NULL, NULL); -- 20048
+  (20048, 'FIACA', 'Fellow of the International Academy of Clinical Acupuncture', 'International Academy of Clinical Acupuncture', NULL, 'Fellowship in clinical acupuncture', FALSE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL); -- 20048

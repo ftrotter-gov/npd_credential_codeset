@@ -59,4 +59,4 @@ VALUES
   (90033, 'HSG',   'Homoeopathic Study Group',           NULL, NULL, 'Member of homeopathic study group', TRUE, FALSE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 90033
   (90034, 'SG',    'Study Group',                        NULL, NULL, 'Member of medical specialty study group', TRUE, FALSE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 90034
   (90035, 'LL',    'Laymens League',                     NULL, NULL, 'Member of medical laymens league', TRUE, FALSE, FALSE, FALSE, FALSE, 0, NULL, NULL), -- 90035
-  (90036, 'HLL',   'Homoeopathic Laymens League',        NULL, NULL, 'Member of homeopathic laymens league', TRUE, FALSE, FALSE, FALSE, FALSE, NULL, NULL); -- 90036
+  (90036, 'HLL',   'Homoeopathic Laymens League',        NULL, NULL, 'Member of homeopathic laymens league', TRUE, FALSE, FALSE, FALSE, FALSE, 0, NULL, NULL); -- 90036

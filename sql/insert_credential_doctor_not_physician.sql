@@ -49,4 +49,4 @@ VALUES
   (10028, 'PHE', 'Doctor of Engineering', NULL, NULL, 'Professional doctoral degree in engineering focusing on advanced engineering practice and applied research', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 10028
   (10029, 'PHD', 'Doctor of Philosophy', NULL, NULL, 'Research doctoral degree representing the highest level of academic achievement in various fields of study', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 10029
   (10030, 'PHS', 'Doctor of Science', NULL, NULL, 'Research or professional doctoral degree in scientific disciplines', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL), -- 10030
-  (10031, 'JD', 'Juris Doctor', NULL, NULL, 'Professional doctoral degree in law required for legal practice in most jurisdictions', TRUE, FALSE, FALSE, FALSE, TRUE, NULL, NULL); -- 10031
+  (10031, 'JD', 'Juris Doctor', NULL, NULL, 'Professional doctoral degree in law required for legal practice in most jurisdictions', TRUE, FALSE, FALSE, FALSE, TRUE, 0, NULL, NULL); -- 10031

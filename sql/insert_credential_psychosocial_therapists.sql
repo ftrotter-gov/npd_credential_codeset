@@ -30,7 +30,7 @@ VALUES
   (60021, 'ASW',   'Associate Social Worker',             NULL, NULL, 'Entry-level social worker working under supervision to gain experience toward full licensure.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL),
   (60022, 'LADC',  'Licensed Alcohol and Drug Counselor', NULL, NULL, 'Licensed professional specializing in alcohol and drug addiction counseling and treatment.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL),
   (60023, 'CADC',  'Certified Alcohol and Drug Counselor', NULL, NULL, 'Certified counselor specializing in substance abuse treatment and addiction recovery services.', TRUE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL),
-  (60024, 'LPCA',  'Licensed Professional Counselor Associate', NULL, NULL, 'Associate-level professional counselor working under supervision toward full licensure.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, NULL, NULL);
+  (60024, 'LPCA',  'Licensed Professional Counselor Associate', NULL, NULL, 'Associate-level professional counselor working under supervision toward full licensure.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL);
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
@@ -61,7 +61,7 @@ VALUES
   (60046, 'LPCC-S', 'Licensed Professional Clinical Counselor - Supervisor', NULL, NULL, 'Clinical counselor with supervisory credentials for overseeing other mental health professionals.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL),
   (60047, 'MHC',    'Mental Health Counselor',           NULL, NULL, 'Professional counselor providing mental health services and psychological support.', TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL),
   (60048, 'PSS',    'Peer Support Specialist',           NULL, NULL, 'Individual with lived experience providing peer support services in mental health and recovery settings.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL),
-  (60049, 'SA-C',   'Substance Abuse Counselor Certified', NULL, NULL, 'Certified counselor specializing in substance abuse treatment and addiction recovery services.', TRUE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL);
+  (60049, 'SA-C',   'Substance Abuse Counselor Certified', NULL, NULL, 'Certified counselor specializing in substance abuse treatment and addiction recovery services.', TRUE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL);
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
@@ -92,7 +92,7 @@ VALUES
   (60071, 'PPS',    'Peer Support Specialist',            NULL, NULL, 'Individual with lived experience providing peer support services in mental health and recovery settings.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL),
   (60072, 'LMHP',   'Licensed Mental Health Practitioner', NULL, NULL, 'Licensed practitioner providing comprehensive mental health services and therapeutic interventions.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL),
   (60073, 'APCC',   'Associate Professional Clinical Counselor', NULL, NULL, 'Associate-level clinical counselor working under supervision toward independent practice.', TRUE,  TRUE,  FALSE,  FALSE, FALSE, 0, NULL, NULL),
-  (60074, 'CPSS',   'Certified Peer Support Specialist',  NULL, NULL, 'Certified peer support specialist with training to provide recovery-oriented services.', TRUE,  TRUE,  TRUE,  FALSE, FALSE, NULL, NULL);
+  (60074, 'CPSS',   'Certified Peer Support Specialist',  NULL, NULL, 'Certified peer support specialist with training to provide recovery-oriented services.', TRUE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL);
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
@@ -127,4 +127,4 @@ VALUES
   (60094, 'NEUROPSYCHOLOGIST', 'Neuropsychologist', 'American Board of Professional Psychology', 'https://www.abpp.org', 'Board certified psychologist specializing in brain-behavior relationships, cognitive assessment, and neurological conditions.', FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL),
 
 -- Additional FDA List Mental Health Credentials
-  (60095, 'MFCC', 'Marriage, Family and Child Counselor', NULL, NULL, 'Licensed counselor specializing in marriage, family, and child therapy', TRUE, TRUE, FALSE, FALSE, FALSE, NULL, NULL); -- 60095
+  (60095, 'MFCC', 'Marriage, Family and Child Counselor', NULL, NULL, 'Licensed counselor specializing in marriage, family, and child therapy', TRUE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL); -- 60095

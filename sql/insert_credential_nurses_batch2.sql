@@ -195,4 +195,4 @@ VALUES
   (1213, 'CANP', 'Certified Adult Nurse Practitioner', NULL, NULL, 'Certified Adult Nurse Practitioner specializing in adult healthcare', TRUE, TRUE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 1213
   (1214, 'CRN', 'Certified Registered Nurse', NULL, NULL, 'Certified Registered Nurse with advanced certification beyond basic RN license', TRUE, TRUE, TRUE, FALSE, TRUE, 1, NULL, NULL), -- 1214
   (1215, 'CNS', 'Certified Nurse Specialist', NULL, NULL, 'Certified Nurse Specialist with advanced practice nursing expertise in specialized clinical areas', TRUE, TRUE, TRUE, FALSE, TRUE, 0, NULL, NULL), -- 1215
-  (1216, 'FPNP', 'Family Practice Nurse Practitioner', NULL, NULL, 'Family Practice Nurse Practitioner providing comprehensive primary care to families', TRUE, TRUE, TRUE, FALSE, TRUE, NULL, NULL); -- 1216
+  (1216, 'FPNP', 'Family Practice Nurse Practitioner', NULL, NULL, 'Family Practice Nurse Practitioner providing comprehensive primary care to families', TRUE, TRUE, TRUE, FALSE, TRUE, 0, NULL, NULL); -- 1216

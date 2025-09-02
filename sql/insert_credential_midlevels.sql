@@ -38,7 +38,7 @@ VALUES
   -- Pediatric Nurse Practitioners
   (5017, 'CPNP',   'Certified Pediatric Nurse Practitioner', 'Pediatric Nursing Certification Board', 'https://www.pncb.org', 'Certified nurse practitioner specializing in comprehensive healthcare for infants, children, and adolescents', FALSE, TRUE,  TRUE,  FALSE, TRUE, 0, NULL, NULL), -- 5017
   -- Adult Nurse Practitioners
-  (5018, 'ANP',    'Adult Nurse Practitioner',           NULL, NULL, 'Nurse practitioner specializing in healthcare for adults across the adult lifespan', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL); -- 5018
+  (5018, 'ANP',    'Adult Nurse Practitioner',           NULL, NULL, 'Nurse practitioner specializing in healthcare for adults across the adult lifespan', TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL); -- 5018
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
@@ -75,7 +75,7 @@ VALUES
   -- Acute Care Nurse Practitioner Board Certified
   (5037, 'ACNP-BC', 'Acute Care Nurse Practitioner Board Certified', 'American Nurses Credentialing Center', 'https://www.nursingworld.org/ancc', 'Board certified nurse practitioner specializing in acute and critical care management', FALSE, TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL), -- 5037
   -- Master of Physician Assistant Studies
-  (5038, 'MPAS',   'Master of Physician Assistant Studies', NULL, NULL, 'Masters degree in physician assistant studies from an accredited educational program', TRUE,  TRUE,  FALSE, FALSE, FALSE, NULL, NULL); -- 5038
+  (5038, 'MPAS',   'Master of Physician Assistant Studies', NULL, NULL, 'Masters degree in physician assistant studies from an accredited educational program', TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL); -- 5038
 
 INSERT INTO dctnry.credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
@@ -98,4 +98,4 @@ VALUES
   (5046, 'RPA',    'Registered Physician Assistant',     NULL, NULL, 'Registered physician assistant licensed to practice medicine under physician supervision with expanded clinical privileges', TRUE,  TRUE,  TRUE,  FALSE, FALSE, 0, NULL, NULL), -- 5046
 
 -- Physician Assistant Fellowship Credentials
-  (5047, 'FAAPA', 'Fellow of the American Academy of Physician Assistants', 'American Academy of Physician Assistants', 'https://www.aapa.org', 'Fellowship recognizing leadership in physician assistant profession', FALSE, TRUE, FALSE, FALSE, FALSE, NULL, NULL); -- 5047
+  (5047, 'FAAPA', 'Fellow of the American Academy of Physician Assistants', 'American Academy of Physician Assistants', 'https://www.aapa.org', 'Fellowship recognizing leadership in physician assistant profession', FALSE, TRUE, FALSE, FALSE, FALSE, 0, NULL, NULL); -- 5047
