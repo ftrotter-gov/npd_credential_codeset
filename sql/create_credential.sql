@@ -24,8 +24,8 @@ CREATE TABLE dctnry.credential (
   is_multisource              BOOLEAN     NOT NULL DEFAULT FALSE, -- many issuing orgs (e.g., MD)
   is_clinical                 BOOLEAN     NOT NULL DEFAULT FALSE, -- TRUE for inherently clinical creds
   is_board_certification      BOOLEAN     NOT NULL DEFAULT FALSE,
-  is_credential_retired                  BOOLEAN     NOT NULL DEFAULT FALSE, -- TRUE when a credential is no longer issued for some reason
-
+  is_credential_retired       BOOLEAN     NOT NULL DEFAULT FALSE, -- TRUE when a credential is no longer issued for some reason
+  is_fhir_credential          BOOLEAN     NOT NULL DEFAULT FALSE, -- TRUE when a credential appears in the FHIR spec.
   created_at                  TIMESTAMPTZ,
   updated_at                  TIMESTAMPTZ
 );
