@@ -2,7 +2,7 @@
 -- All nursing credentials including basic licenses, board certifications, and advanced practice
 
 -- Basic nursing roles (RN, LPN, CNA, etc.)
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -18,7 +18,7 @@ VALUES
   (1008, 'NURSE',  'Nurse',                              NULL, NULL, NULL, TRUE,  TRUE,  FALSE, FALSE, FALSE, 0, NULL, NULL); -- 1008
 
 -- ANCC (American Nurses Credentialing Center) Nurse Practitioner Certifications  
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -33,7 +33,7 @@ VALUES
   (1019, 'ENP-BC', 'Emergency Nurse Practitioner', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL); -- 1019
 
 -- ANCC Clinical Nurse Specialist Certifications
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -51,7 +51,7 @@ VALUES
   (1028, 'CNS-BC', 'Clinical Nurse Specialist Core', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL); -- 1028
 
 -- ANCC Registered Nurse Certifications
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -90,7 +90,7 @@ VALUES
   (1056, 'NHDP-BC', 'National Healthcare Disaster', 'American Nurses Credentialing Center (ANCC)', 'https://www.nursingworld.org/our-certifications/', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL);
 
 -- AANPCB (American Academy of Nurse Practitioners Certification Board) Certifications
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -101,7 +101,7 @@ VALUES
   (1060, 'PMHNP-C', 'Psychiatric Mental Health Nurse Practitioner', 'American Academy of Nurse Practitioners Certification Board (AANPCB)', 'https://www.aanpcert.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL);
 
 -- PNCB (Pediatric Nursing Certification Board) Certifications
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -110,7 +110,7 @@ VALUES
   (1064, 'PMHS', 'Pediatric Primary Care Mental Health Specialist', 'Pediatric Nursing Certification Board', 'https://www.pncb.org/certifications', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL); -- 1064
 
 -- AACN (American Association of Critical-Care Nurses) Certifications
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -137,7 +137,7 @@ VALUES
   (1077, 'ACCNS-N', 'Acute Care Clinical Nurse Specialist (Neonatal)', 'American Association of Critical-Care Nurses', 'https://www.aacn.org/certification/get-certified', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL); -- 1077
 
 -- NCC (National Certification Corporation) Certifications
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -161,7 +161,7 @@ VALUES
   (1091, 'C-OBE', 'Obstetric Emergencies', 'National Certification Corporation', 'https://www.nccwebsite.org/certification-exams/how-do-i-apply', NULL, FALSE, TRUE, TRUE, FALSE, FALSE, 0, NULL, NULL); -- 1091
 
 -- ONCC (Oncology Nursing Certification Corporation) Certifications
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
@@ -179,7 +179,7 @@ VALUES
   (1099, 'AOCN', 'Advanced Oncology Certified Nurse', 'Oncology Nursing Certification Corporation', 'https://www.oncc.org/certification-renewal-guide', NULL, FALSE, TRUE, TRUE, TRUE, FALSE, 0, NULL, NULL); -- 1099
 
 -- BCEN (Board of Certification for Emergency Nursing) Certifications
-INSERT INTO dcntry.clinical_credential
+INSERT INTO dctnry.clinical_credential
   (id, credential_abbr, credential_name, credentialing_organization_name,
    credentialing_organization_url, credential_description, is_multisource, is_clinical,
    is_board_certification, is_credential_retired, is_fhir_credential, duplicate_abbreviation_code, created_at, updated_at)
