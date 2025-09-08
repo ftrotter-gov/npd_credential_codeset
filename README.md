@@ -1,5 +1,7 @@
 # National Provider Directory Credential Codeset BETA 
 
+[![BETA](https://img.shields.io/badge/-BETA-red?style=for-the-badge&labelColor=red)](#)
+
 This project is currently a spike. We are not sure this is the best way to handle this problem, and we are taking feedback on this whole approach. 
 
 A place for the FHIR community to review our current credential model, which will be an extension of the current FAST FHIR Valueset here: 
