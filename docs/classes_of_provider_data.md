@@ -90,8 +90,24 @@
 | Leadership positions | Universities, Hospitals, Societies |
 | | |
 
+
 ## Clinical Organizations
 
 | **Type of Information** | **Likely Agency/Organization Source** |
 |---|---|
-|Trama Center Level| American College of Surgeons dictates what is included in each level|
+| Trauma Center Level | American College of Surgeons dictates what is included in each level |
+| Institutional Review Board (IRB) presence | Department of Health and Human Services Office for Human Research Protections (OHRP); U.S. Food and Drug Administration (FDA) |
+| Intensive Care Unit (ICU) status | American Hospital Association (AHA); CMS Healthcare Cost Report Information System (HCRIS) |
+| Organizational Ownership | PECOS (Provider Enrollment, Chain, and Ownership System) — includes hospitals, Skilled Nursing Facilities (SNFs), etc. |
+| Nonprofit Hospital Disclosures | IRS Form 990 filings |
+| Hospital Provider Cost Reports | Medicare Hospital Cost Report data (submitted to CMS) |
+| Patient Experience (CAHPS surveys) | Agency for Healthcare Research and Quality (AHRQ) |
+| Hospital Patient Experience (HCAHPS surveys) | Centers for Medicare & Medicaid Services (CMS) |
+| PPS-Exempt Cancer Hospital Quality Reporting Program Measures | CMS Care Compare (Hospital Quality Reporting Programs) |
+| Inpatient Psychiatric Hospital & Inpatient Psychiatric Unit Information | CMS Care Compare |
+| Hospital Readmissions Reduction Program | CMS Care Compare |
+| Hospital Value-Based Purchasing Program | CMS Care Compare |
+| Hospital-Acquired Condition Reduction Program | CMS Care Compare |
+| Comprehensive Care for Joint Replacement (CJR) Model | CMS Care Compare |
+| Certified Health IT Use (CEHRT) | Office of the National Coordinator for Health Information Technology (ONC) |
+| Hospital Inspection Data | CMS conducts hospital inspections and requires, in some cases, Plan of Corrections from hospitals. These data have been FOIAed and are available from AHCJ at hospitalinspections.org|
