@@ -10,6 +10,7 @@
 | **Addresses** | |
 | Practice locations | CMS (PECOS), NPPES, State licensing boards, Service Location on medical claims, Cliniican resources, Payer resources |
 | Mailing locations | CMS (PECOS), NPPES, Clinician resources |
+| | |
 | **Phone Information** | |
 | Phone numbers | NPPES, PECOS, State licensing boards, Payer resources, clinician resources |
 | Fax numbers | NPPES, Payer and Clinician resoruces |
