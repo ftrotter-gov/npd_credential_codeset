@@ -8,7 +8,7 @@
 ## Both Clinicians and Clinical Organizations
 
 | **Type of Information** | **Likely Agency/Organization Source** |
-| | |
+|---|---|
 | **Addresses** | |
 | Practice locations | CMS (PECOS), NPPES, State licensing boards, Service Location on medical claims, Cliniican resources, Payer resources |
 | Mailing locations | CMS (PECOS), NPPES, Clinician resources |
@@ -57,7 +57,7 @@
 ## Clinicians
 
 | **Type of Information** | **Likely Agency/Organization Source** |
-| | |
+|---|---|
 | **Education & Training** | |
 | Medical school | State licensing boards, AMA Physician Masterfile |
 | Residencies | AMA, ACGME, State licensing boards |
@@ -93,4 +93,5 @@
 ## Clinical Organizations
 
 | **Type of Information** | **Likely Agency/Organization Source** |
-| | |
+|---|---|
+|Trama Center Level| American College of Surgeons dictates what is included in each level|
