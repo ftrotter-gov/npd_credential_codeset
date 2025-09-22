@@ -90,7 +90,6 @@
 | Leadership positions | Universities, Hospitals, Societies |
 | | |
 
-
 ## Clinical Organizations
 
 | **Type of Information** | **Likely Agency/Organization Source** |
