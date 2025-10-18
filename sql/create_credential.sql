@@ -16,9 +16,8 @@
 -- *  created_at - should always be NULL so that the database can set
 -- *  updated_at - should always be NULL so that the database can set.
 
-DROP TABLE IF EXISTS dctnry.clinical_credential;
 
-CREATE TABLE dctnry.clinical_credential (
+CREATE TABLE IF NOT EXISTS dctnry.clinical_credential (
   id                          INT PRIMARY KEY,
   credential_abbr             TEXT        NOT NULL,  -- e.g., MD, DO, PhD
   credential_name             TEXT        NOT NULL,  -- e.g., Medical Doctor
@@ -35,3 +34,12 @@ CREATE TABLE dctnry.clinical_credential (
   created_at                  TIMESTAMPTZ,
   updated_at                  TIMESTAMPTZ
 );
+
+
+CREATE TABLE IF NOT EXISTS clinical_credential_map
+(
+    incoming_credential_string text,
+    outgoing_credential_string text
+);
+
+
