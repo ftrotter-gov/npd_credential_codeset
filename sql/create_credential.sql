@@ -1,3 +1,7 @@
+-- This table is hosted from https://github.com/ftrotter-gov/npd_credential_codeset
+-- Which is a project to create a clinical credentials data set by miining the 
+-- raw credentials that are found in NPPES
+
 -- Column explinations: 
 -- *  id - should be left alone, these were manually created to leave space between sections of the file
 -- *  credential_abbr - the credential abbreviation should already be set
